@@ -1,0 +1,153 @@
+{
+  "@context": [
+    "https://schema.lab.fiware.org/ld/context",
+    {
+      "battery": "https://example.com/battery#",
+      "unitCode": "https://schema.org/unitCode",
+
+      "chargingLevel": "battery:chargingLevel",
+      "chargingStatus": "battery:chargingStatus",
+      "chargingMode": "battery:chargingMode",
+      "voltage": "battery:voltage",
+      "current": "battery:current",
+      "temperature": "battery:temperature",
+      "chargingTime": "battery:chargingTime",
+      "dischargingTime": "battery:dischargingTime",
+      "chargeCycles": "battery:chargeCycles",
+      "remainingCapacity": "battery:remainingCapacity",
+      "fullChargeCapacity": "battery:fullChargeCapacity",
+      "StateofHealth": "battery:StateofHealth",
+      "healthStatus": "battery:healthStatus"
+    },
+    "https://example.com/battery/temperature-context.jsonld",
+    "https://example.com/battery/voltage-context.jsonld",
+    "https://example.com/battery/battery-level-context.jsonld",
+    "https://example.com/battery/charging-status-context.jsonld"
+  ],
+  "id": "urn:ngsi-ld:Battery:001",
+  "type": "Battery",
+  "chargingLevel": {
+    "type": "Property",
+    "value": 80,
+    "unitCode": {
+      "@id": "unitCode:C62",
+      "@type": "unitCode",
+      "name": {
+        "@value": "percent",
+        "@language": "en"
+      }
+    }
+  },
+  "chargingStatus": {
+    "type": "Property",
+    "value": "charging",
+    "@id": "battery:chargingStatus"
+  },
+  "chargingMode": {
+    "type": "Property",
+    "value": "linked",
+    "@id": "battery:chargingMode"
+  },
+  "voltage": {
+    "type": "Property",
+    "value": 400,
+    "unitCode": {
+      "@id": "unitCode:V",
+      "@type": "unitCode",
+      "name": {
+        "@value": "volt",
+        "@language": "en"
+      }
+    }
+  },
+  "current": {
+    "type": "Property",
+    "value": 10,
+    "unitCode": {
+      "@id": "unitCode:A",
+      "@type": "unitCode",
+      "name": {
+        "@value": "ampere",
+        "@language": "en"
+      }
+    }
+  },
+  "temperature": {
+    "type": "Property",
+    "value": 25,
+    "unitCode": {
+      "@id": "unitCode:CEL",
+      "@type": "unitCode",
+      "name": {
+        "@value": "degree Celsius",
+        "@language": "en"
+      }
+    }
+  },
+  "chargingTime": {
+    "type": "Property",
+    "value": 60,
+    "unitCode": {
+      "@id": "unitCode:MIN",
+      "@type": "unitCode",
+      "name": {
+        "@value": "minute",
+        "@language": "en"
+      }
+    }
+  },
+  "dischargingTime": {
+    "type": "Property",
+    "value": 30,
+    "unitCode": {
+      "@id": "unitCode:MIN",
+      "@type": "unitCode",
+      "name": {
+        "@value": "minute",
+        "@language": "en"
+      }
+    }
+  },
+  "chargeCycles": {
+    "type": "Property",
+    "value": 50,
+    "unitCode": {
+      "@id": "unitCode:CYC",
+
+      "@type": "unitCode",
+      "name": {
+        "@value": "charge cycle",
+        "@language": "en"
+      }
+    }
+  },
+  "remainingCapacity": {
+    "type": "Property",
+    "value": 75,
+    "unitCode": {
+      "@id": "unitCode:kWh",
+      "@type": "unitCode",
+      "name": {
+        "@value": "kilowattheures",
+        "@language": "en"
+      }
+    }
+  },
+  "fullChargeCapacity": {
+    "type": "Property",
+    "value": 100,
+    "unitCode": {
+      "@id": "unitCode:kWh",
+      "@type": "unitCode",
+      "name": {
+        "@value": "kilowattheures",
+        "@language": "en"
+      }
+    }
+  },
+  "healthStatus": {
+    "type": "Property",
+    "value": "ok",
+    "@id": "battery:healthStatus"
+  }
+}
