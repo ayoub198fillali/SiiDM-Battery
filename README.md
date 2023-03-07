@@ -1,6 +1,6 @@
 [![N|SII](https://github.com/ayoub198fillali/SiiDM-Battery/blob/main/Assets/POWERED%20BY.png?raw=true)](https://www.sii.com)
 
-[![Build Status](https://github.com/ayoub198fillali/SiiDM-Battery/blob/main/Assets/passing.svg)](https://github.com)
+[![Build Status](https://github.com/ayoub198fillali/SiiDM-Battery/blob/main/Assets/passing.svg)](https://github.com/ayoub198fillali/SiiDM-Battery)
 
 # ~ DATA MODEL EN ~
 
@@ -12,17 +12,19 @@ The Battery Smart Data Model provides a semantic representation of data related 
 
 The Battery Smart Data Model uses NGSI-LD context to provide a semantic structure to battery data. The context includes definitions for the following concepts:
 
-- `chargingLevel`: the battery charge level.
-- `chargingStatus`: the battery charging state (charging, discharging, or full).
-- `voltage`: the battery voltage.
-- `current`: the battery current.
-- `temperature`: the battery temperature.
-- `chargingTime`: the battery charging time.
-- `dischargingTime`: the battery discharging time.
-- `chargeCycles`: the number of battery charge cycles.
-- `remainingCapacity`: the remaining capacity of the battery.
-- `fullChargeCapacity`: the full capacity of the battery when fully charged.
-- `healthStatus`: the health status of the battery.
+- `chargingLevel`: The current level of battery charge,expressed as a percentage.
+- `chargingStatus`: The current state of battery charging, which can be one of the following: charging, discharging, or full.
+- `chargingMode`: The current mode of battery charging, which can be one of the following: Linked or Wireless.
+- `voltage`: The current voltage of the battery, expressed in volts.
+- `current`: The current electric current of the battery, expressed in amperes.
+- `temperature`: The current temperature of the battery, expressed in degrees Celsius.
+- `chargingTime`: The estimated time remaining until the battery is fully charged, expressed in minutes.
+- `dischargingTime`: The estimated time remaining until the battery is fully discharged, expressed in minutes.
+- `chargeCycles`: The number of complete charge/discharge cycles that the battery has undergone, expressed in CYC.
+- `remainingCapacity`: The current remaining capacity of the battery, expressed in kilowatt-hours (kWh).
+- `fullChargeCapacity`: The maximum capacity of the battery when fully charged, expressed in kilowatt-hours (kWh).
+- `StateOfHealth`: The State of Health is an indicator of the battery's overall health and its ability to store and deliver energy compared to its original nominal capacity(Refreshed Every 12h) else '-'. It is expressed as a percentage.
+- `healthStatus`: The general health status of the battery, which can be one of the following: ok, warning, or critical. The value is expressed as a percentage, with 0 indicating a severely degraded battery and 100 indicating a battery in perfect health.
 
 The context also includes definitions for the unit codes that are used to specify the measurement units of each property.
 
@@ -54,17 +56,19 @@ La Smart Data Model Battery fournit une représentation sémantique des données
 
 La Smart Data Model Battery utilise le contexte NGSI-LD pour fournir une structure sémantique aux données de la batterie. Le contexte comprend des définitions pour les concepts suivants :
 
-- `chargingLevel` : le niveau de charge de la batterie.
-- `chargingStatus` : l'état de charge de la batterie (en charge, en décharge, ou plein).
-- `voltage` : la tension de la batterie.
-- `current` : le courant de la batterie.
-- `temperature` : la température de la batterie.
-- `chargingTime` : le temps de charge de la batterie.
-- `dischargingTime` : le temps de décharge de la batterie.
-- `chargeCycles` : le nombre de cycles de charge de la batterie.
-- `remainingCapacity` : la capacité restante de la batterie.
-- `fullChargeCapacity` : la capacité totale de la batterie lorsqu'elle est complètement chargée.
-- `healthStatus` : l'état de santé de la batterie.
+- `chargingLevel` : Le niveau actuel de charge de la batterie, exprimé en pourcentage.
+- `chargingStatus` : L'état actuel de charge de la batterie, qui peut être l'un des suivants : en charge, en décharge ou pleine.
+- `chargingMode` : Le mode actuel de charge de la batterie, qui peut être l'un des suivants : lié ou sans fil.
+- `voltage` : La tension actuelle de la batterie, exprimée en volts.
+- `current` : Le courant électrique actuel de la batterie, exprimé en ampères.
+- `temperature` : La température actuelle de la batterie, exprimée en degrés Celsius.
+- `chargingTime` : Le temps estimé restant jusqu'à ce que la batterie soit complètement chargée, exprimé en minutes.
+- `dischargingTime` : Le temps estimé restant jusqu'à ce que la batterie soit complètement déchargée, exprimé en minutes.
+- `chargeCycles` : Le nombre de cycles complets de charge/décharge que la batterie a subis, exprimé en CYC.
+- `remainingCapacity` : La capacité restante actuelle de la batterie, exprimée en kilowatts-heures (kWh).
+- `fullChargeCapacity` : La capacité maximale de la batterie lorsqu'elle est complètement chargée, exprimée en kilowatts-heures (kWh).
+- `StateOfHealth` : L'état de santé est un indicateur de la santé globale de la batterie et de sa capacité à stocker et fournir de l'énergie par rapport à sa capacité nominale d'origine(actualisé chaque 12h) sinon prend '-'. Il est exprimé en pourcentage.
+- `healthStatus` : L'état de santé général de la batterie, qui peut être l'un des suivants : ok, avertissement ou critique. La valeur est exprimée en pourcentage, 0 indiquant une batterie très dégradée et 100 indiquant une batterie en parfait état de santé.
 
 Le contexte comprend également des définitions pour les codes d'unité qui sont utilisés pour spécifier les unités de mesure de chaque propriété.
 

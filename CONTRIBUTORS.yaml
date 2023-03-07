@@ -2,22 +2,24 @@ description: This is a compilation list of all CONTRIBUTORS across different obj
 contributors:
   - name: Ayoub
     surname: FILLALI
-    mail: ayoub.fillali@sii.com
+    mail: ayoub.fillali@sii.fr
     organization: SII
     project:
-    comments:
+    comments: Intern
     year: 2023
-  - name: Ayoub
-    surname: FILLALI
-    mail: ayoub.fillali@sii.com
+
+  - name: Senda
+    surname: ROMDHANI
+    mail: senda.romdhani@sii.com
     organization: SII
     project:
-    comments:
-    year: 2023
-  - name: Ayoub
-    surname: FILLALI
-    mail: ayoub.fillali@sii.com
+    comments: Manager
+    year: 20xx
+
+  - name: Ahmed
+    surname: xxxx
+    mail: ahmed.xxxx@sii.com
     organization: SII
     project:
-    comments:
+    comments: Intern
     year: 2023

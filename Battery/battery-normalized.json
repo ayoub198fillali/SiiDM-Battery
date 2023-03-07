@@ -16,7 +16,7 @@
       "chargeCycles": "battery:chargeCycles",
       "remainingCapacity": "battery:remainingCapacity",
       "fullChargeCapacity": "battery:fullChargeCapacity",
-      "StateofHealth": "battery:StateofHealth",
+      "StateOfHealth": "battery:StateOfHealth",
       "healthStatus": "battery:healthStatus"
     },
     "https://example.com/battery/temperature-context.jsonld",
