@@ -1,6 +1,6 @@
-[![N|SII](https://cldup.com/dTxpPi9lDf.thumb.png)](https://www.sii.com)
+[![N|SII](https://github.com/ayoub198fillali/SiiDM-Battery/blob/main/Assets/POWERED%20BY.png?raw=true)](https://www.sii.com)
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://github.com)
+[![Build Status](https://github.com/ayoub198fillali/SiiDM-Battery/blob/main/Assets/passing.svg)](https://github.com)
 
 # ~ DATA MODEL EN ~
 
