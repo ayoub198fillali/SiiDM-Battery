@@ -44,7 +44,7 @@ Contributions are welcome! To contribute to this data model, please refer to the
 
 ## Contact
 
-For any questions or comments, please contact SII at [Your Company Email Address] or visit our website at https://sii-group.com/.
+For any questions or comments, please contact SII at [SII Email Address] or visit our website at https://sii-group.com/.
 
 # ~ DATA MODEL FR ~
 
@@ -88,4 +88,4 @@ Les contributions sont les bienvenues ! Pour contribuer à ce modèle de donnée
 
 ## Contact
 
-Pour toute question ou commentaire, veuillez contacter SII à [Adresse e-mail de votre entreprise] ou visiter notre site Web à https://sii-group.com/en-FR.
+Pour toute question ou commentaire, veuillez contacter SII à [Adresse e-mail de SII] ou visiter notre site Web à https://sii-group.com/en-FR.
