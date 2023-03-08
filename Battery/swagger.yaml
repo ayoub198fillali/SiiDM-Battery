@@ -1,0 +1,173 @@
+---
+# Copyright (c) 2023 Contributors to SII
+#
+
+openapi: 3.0.0
+info:
+  title: Battery API
+  version: 1.0.0
+servers:
+  - url: http://localhost:8080
+paths:
+  /battery/{id}:
+    get:
+      summary: Get battery information by ID
+      operationId: getBatteryById
+      parameters:
+        - in: path
+          name: id
+          description: ID of the battery
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Battery information
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Battery"
+    post:
+      summary: Create a new battery
+      operationId: createBattery
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/BatteryInput"
+      responses:
+        "201":
+          description: Battery created
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Battery"
+        "400":
+          description: Bad request
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+components:
+  schemas:
+    Battery:
+      type: object
+      properties:
+        "@context":
+          type: array
+          items:
+            type: string
+        id:
+          type: string
+        type:
+          type: string
+        chargingLevel:
+          $ref: "#/components/schemas/BatteryProperty"
+        chargingStatus:
+          $ref: "#/components/schemas/BatteryProperty"
+        chargingMode:
+          $ref: "#/components/schemas/BatteryProperty"
+        voltage:
+          $ref: "#/components/schemas/BatteryProperty"
+        current:
+          $ref: "#/components/schemas/BatteryProperty"
+        temperature:
+          $ref: "#/components/schemas/BatteryProperty"
+        chargingTime:
+          $ref: "#/components/schemas/BatteryProperty"
+        dischargingTime:
+          $ref: "#/components/schemas/BatteryProperty"
+        chargeCycles:
+          $ref: "#/components/schemas/BatteryProperty"
+        remainingCapacity:
+          $ref: "#/components/schemas/BatteryProperty"
+        fullChargeCapacity:
+          $ref: "#/components/schemas/BatteryProperty"
+        healthStatus:
+          $ref: "#/components/schemas/BatteryProperty"
+      required:
+        - "@context"
+        - id
+        - type
+        - chargingLevel
+        - chargingStatus
+        - chargingMode
+        - voltage
+        - current
+        - temperature
+        - chargingTime
+        - dischargingTime
+        - chargeCycles
+        - remainingCapacity
+        - fullChargeCapacity
+        - healthStatus
+  BatteryInput:
+    type: object
+    properties:
+    "@context":
+      type: array
+      items:
+    chargingLevel:
+      $ref: "#/components/schemas/BatteryPropertyInput"
+    chargingStatus:
+      $ref: "#/components/schemas/BatteryPropertyInput"
+    chargingMode:
+      $ref: "#/components/schemas/BatteryPropertyInput"
+    voltage:
+      $ref: "#/components/schemas/BatteryPropertyInput"
+    current:
+      $ref: "#/components/schemas/BatteryPropertyInput"
+    temperature:
+      $ref: "#/components/schemas/BatteryPropertyInput"
+    chargingTime:
+      $ref: "#/components/schemas/BatteryPropertyInput"
+    dischargingTime:
+      $ref: "#/components/schemas/BatteryPropertyInput"
+    chargeCycles:
+      $ref: "#/components/schemas/BatteryPropertyInput"
+    remainingCapacity:
+      $ref: "#/components/schemas/BatteryPropertyInput"
+    fullChargeCapacity:
+      $ref: "#/components/schemas/BatteryPropertyInput"
+    healthStatus:
+      $ref: "#/components/schemas/BatteryPropertyInput"
+    required:
+    - "@context"
+    - type
+    - chargingLevel
+    - chargingStatus
+    - chargingMode
+    - voltage
+    - current
+    - temperature
+    - chargingTime
+    - dischargingTime
+    - chargeCycles
+    - remainingCapacity
+    - fullChargeCapacity
+    - healthStatus
+    
+  BatteryProperty:
+      type: object
+      properties:
+        type:
+          type: string
+        value:
+          type: number
+        unitCode:
+          $ref: "#/components/schemas/UnitCode"
+  UnitCode:
+      type: object
+      properties:
+        "@id":
+          type: string
+        "@type":
+          type: string
+        name:
+          type: object
+          properties:
+            "@value":
+              type: string
+            "@language":
+              type: string

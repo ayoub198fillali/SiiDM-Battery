@@ -1,0 +1,135 @@
+# TOTAL (30 Features)
+
+## Done: (14)
+
+    chargingLevel
+    chargingStatus
+    chargingMode
+    voltage
+    current
+    temperature
+     + humidity
+    chargingTime
+    dischargingTime
+    chargeCycles
+    remainingCapacity
+    fullChargeCapacity
+    StateOfHealth
+    healthStatus
+
+## Add The Following To Our Model: (26)
+
+    batteryType
+    brandName
+    manufacturerName
+    massEnergyDensity
+    maxOutputPower
+    maximumVoltageEOC
+    minimumVoltageEOD
+    nominalAmpere
+    nominalCapacity
+    nominalFrequency
+    nominalVoltage
+    operatingAltitude
+    operatingAmpere
+    operatingFrequency
+    operatingTemperature
+    operatingVoltage
+    overloadAccepted
+    overloadAcceptedTime
+    peakPower
+    protectionIK
+    protectionIP
+    rechargeEnergySource
+    toolBMS
+    typeEnergySource
+    weight
+    dimension
+
+---
+
+    seeAlso
+    dataProvider
+    dateCreated
+
+---
+
+batteryType[string]: Enum : 'alcaline, gel, plomb, plomb-AGM, Li-Ion, Li-Po, Li-Po4, LMP, Li-Air, Na-NiCl2(Zebra), Ni-Cd, Ni-MH, Ni-Zn, autre'. Type de batterie utilisé. . Model: https://schema.org/Text
+
+brandName[string]: Nom de la marque de l'article. . Model: https://schema.org/Text
+
+manufacturerName[string]: Fabricant Nom de l'article. . Model: https://schema.org/Text
+
+massEnergyDensity[object]: Densité énergétique massique (Code D). Rapport entre la capacité de la batterie à fournir une certaine puissance pendant un certain temps et son poids. Le format est structuré par une sous-propriété de 2 éléments. Le code d'unité (texte) de mesure est Wh/Kg WattHeure par Kilogramme . Model: https://schema.org/Number
+
+maxOutputPower[number]: Puissance maximale. Le code de l'unité (texte) est donné en utilisant les [Codes communs du CEFACT-ONU] (http://wiki.goodrelations-vocabulary.org/Documentation/UN/CEFACT_Common_Codes). Par exemple, KWT représente un kilowatt. . Model: https://schema.org/Number
+
+maximumVoltageEOC[number]: Tension maximale autorisée après fin de charge et batterie toujours connectée à un générateur de charge. Le code d'unité (texte) est donné en utilisant les [Codes communs du CEFACT-ONU] (http://wiki.goodrelations-vocabulary.org/Documentation/UN/CEFACT_Common_Codes). Par exemple, VLT représente Volt . Model: https://schema.org/Number
+
+minimumVoltageEOD[number]: Tension minimale après la fin de la décharge et non connectée à un générateur de charge. Le code de l'unité (texte) est donné en utilisant les [Codes communs du CEFACT-ONU] (http://wiki.goodrelations-vocabulary.org/Documentation/UN/CEFACT_Common_Codes). Par exemple, VLT représente Volt . Model: https://schema.org/Number
+
+nominalAmpere[number]: Ampérage nominal. (Code I). Le code de l'unité (texte) est donné en utilisant les [Codes communs du CEFACT-ONU] (http://wiki.goodrelations-vocabulary.org/Documentation/UN/CEFACT_Common_Codes). Par exemple, AMP représente l'Ampère . Model: https://schema.org/Number
+
+nominalCapacity[number]: Capacité énergétique nominale. (Code C) à relier avec l'attribut [CapacityCnnn] pour mesurer les paramètres de niveaux prédéfinis C / xx h des régimes de décharge. Le code d'unité (texte) est donné en utilisant les [Codes communs du CEFACT-ONU] (http://wiki.goodrelations-vocabulary.org/Documentation/UN/CEFACT_Common_Codes). Par exemple, AMH représente les ampères-heures. . Model: https://schema.org/Number
+
+nominalFrequency[number]: Fréquence nominale. Le code de l'unité (texte) est donné en utilisant les [Codes communs du CEFACT-ONU] (http://wiki.goodrelations-vocabulary.org/Documentation/UN/CEFACT_Common_Codes). Par exemple, HTZ représente les Hertz. . Model: https://schema.org/Number
+
+nominalVoltage[number]: Tension nominale de la batterie. (Code U) Le code d'unité (texte) est donné en utilisant les [Codes communs du CEFACT-ONU] (http://wiki.goodrelations-vocabulary.org/Documentation/UN/CEFACT_Common_Codes). Par exemple, VLT représente Volt . Model: https://schema.org/Number
+
+operatingAltitude[object]: Altitude de fonctionnement avec résistance minimale et maximale à la hauteur et à la profondeur. Le format est structuré par une sous-propriété de 2 éléments avec les clés [min] =<0 et [max] >=0. Le code de l'unité (texte) est donné en utilisant les [Codes communs du CEFACT-ONU] (http://wiki.goodrelations-vocabulary.org/Documentation/UN/CEFACT_Common_Codes). Par exemple, MTR représente le mètre. . Model: https://schema.org/Number
+
+operatingAmpere[object]: Ampères minimum et maximum autorisés. Le format est structuré par une sous-propriété de 2 éléments. Le code d'unité (texte) est donné en utilisant les [Codes communs du CEFACT-ONU] (http://wiki.goodrelations-vocabulary.org/Documentation/UN/CEFACT_Common_Codes). Par exemple, AMP représente l'Ampère . Model: https://schema.org/Number
+
+operatingFrequency[object]: Fréquence minimale et maximale autorisée. Le format est structuré par une sous-propriété de 2 éléments. Le code d'unité (texte) est donné en utilisant les [Codes communs du CEFACT-ONU] (http://wiki.goodrelations-vocabulary.org/Documentation/UN/CEFACT_Common_Codes). Par exemple, HTZ représente les Hertz. . Model: https://schema.org/Number
+
+operatingTemperature[object]: Plage de températures de fonctionnement ambiantes. Il s'agit de la résistance minimale et maximale au froid et à la chaleur pour un [événement]. Le format est structuré par une sous-propriété de 3 éléments au format {event :[min,max]}. Le code de l'unité (texte) est donné à l'aide des [Codes communs du CEFACT-ONU] (http://wiki.goodrelations-vocabulary.org/Documentation/UN/CEFACT_Common_Codes). Par exemple, CEL représente le degré Celsius.
+
+operatingVoltage[object]: Tension minimale et maximale autorisée. Le format est structuré par une sous-propriété de 2 éléments. Le code d'unité (texte) est donné en utilisant les [Codes communs du CEFACT-ONU] (http://wiki.goodrelations-vocabulary.org/Documentation/UN/CEFACT_Common_Codes). Par exemple, VLT représente le Volt . Model: https://schema.org/Number
+
+overloadAccepted[boolean]: La surcharge est autorisée après avoir dépassé le seuil.(true pour oui) . Model: https://schema.org/Boolean
+
+overloadAcceptedTime[string]: Temps de surcharge accepté sans dommage pour la batterie. . Model: https://schema.org/DateTime
+
+peakPower[number]: Intensité maximale extractible sur une courte période. Le code de l'unité (texte) est donné en utilisant les [Codes communs du CEFACT-ONU] (http://wiki.goodrelations-vocabulary.org/Documentation/UN/CEFACT_Common_Codes). Par exemple, KWT représente le kilowatt. . Model: https://schema.org/Number
+
+protectionIK[number]: Le niveau de "protection mécanique" IK est une classification numérique des degrés de protection fournis par les boîtiers d'équipements électriques contre les impacts mécaniques externes, conformément à la norme de la Commission électrotechnique internationale (EN 62-262). - L'IK varie de 0 (résistance minimale) à 10 (résistance maximale), ce qui représente une énergie d'impact (unité Joule). . Model: https://schema.org/Number.
+
+protectionIP[string]: IP Protection contre les intrusions pour la boîte de jonction. Il s'agit du niveau qui classe et évalue le degré de protection offert par les boîtiers mécaniques et les enveloppes électriques contre les intrusions, la poussière, les contacts accidentels et l'eau, conformément à la norme de la Commission électrotechnique internationale (EN 60-529). - Premier chiffre : Protection contre les particules solides (chiffre unique : 0-6 ou 'X'). - Deuxième chiffre : Protection contre la pénétration de liquides (chiffre unique : 0-9 ou 'X'). - Troisième chiffre : Protection personnelle contre l'accès aux parties dangereuses (lettre supplémentaire facultative). - Quatrième chiffre : Autres protections (lettre supplémentaire facultative) . Model: https://en.wikipedia.org/wiki/IP_Code.
+
+rechargeEnergySource[string]: Enum : 'electric, hydraulic, windTurbine, other'. Source d'énergie de recharge. Une valeur unique de la liste . Model: https://schema.org/Text
+
+toolBMS[boolean]: Utilisation d'un outil de système de gestion de la batterie pour protéger, garantir et optimiser la durée de vie de la batterie. (true pour oui) . Model: https://schema.org/Boolean
+
+typeEnergySource[array]: Enum : 'barrage, chute, générateur, réseau, photovoltaïque, rivière, mer, waterTurbine, vent, autre'. Type de source d'énergie concernant l'attribut RechargeEnergySource. . Model: https://schema.org/Text
+
+weight[number]: Poids. Le code de l'unité (texte) est donné en utilisant les [Codes communs du CEFACT-ONU] (http://wiki.goodrelations-vocabulary.org/Documentation/UN/CEFACT_Common_Codes). Par exemple, KGM représente le kilo gramme. . Model: https://schema.org/weight
+
+dimension[object]: Dimension externe d'un panneau. Le format est structuré par une sous-propriété de 3 éléments. Le code de l'unité (texte) est donné en utilisant les [Codes communs du CEFACT-ONU] (http://wiki.goodrelations-vocabulary.org/Documentation/UN/CEFACT_Common_Codes). Par exemple, CMT représente un centimètre.
+
+--
+
+seeAlso[*]: liste d'uri pointant vers des ressources supplémentaires sur l'élément
+
+dataProvider[string]: Une séquence de caractères identifiant le fournisseur de l'entité de données harmonisées.
+
+dateCreated[string]: Horodatage de la création de l'entité. Celui-ci sera généralement attribué par la plateforme de stockage.
+
+https://www.fiware.org/smart-data-models/
+
+https://github.com/smart-data-models/dataModel.Battery/blob/master/StorageBatteryDevice/doc/spec_FR.md
+
+---
+
+---
+
+## API
+
+---
+
+https://app.swaggerhub.com/apis/AYOUBFILLALI/Per/1.0.0#/default/getPersons
+
+https://web.postman.co/workspace/My-Workspace~2c4331ea-3e6b-42bf-8bf1-4528b283a049/request/22492290-368f4549-2ed4-4c33-ad5b-652ad7cd5691
+
+https://petstore.swagger.io/#/pet/getPetById
+
+https://github.com/smart-data-models/dataModel.Battery/blob/6bae431c87680d124c6ecdb98e184b452f6d63b7/StorageBatteryDevice/swagger.yaml
