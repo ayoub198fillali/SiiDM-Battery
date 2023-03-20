@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-20T23:29:31.262Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="kfESG4xP39iDaX30LtXd" version="21.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-20T23:31:27.407Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="MIDvBrq-Ytk_pcfFjCtR" version="21.0.8" type="github">
   <diagram id="2f404044-711c-603c-8f00-f6bb4c023d3c" name="Page-1">
-    <mxGraphModel dx="1280" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="741" dy="398" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -288,22 +288,22 @@
         <mxCell id="CDrZ7a42aMioSidAUovB-200" value="" style="swimlane;shadow=0;labelBackgroundColor=#007FFF;strokeColor=#4277BB;fillColor=none;gradientColor=none;fontColor=#000000;align=right;collapsible=0;startSize=0;strokeWidth=3;" vertex="1" parent="1">
           <mxGeometry x="320" y="1830" width="490" height="159" as="geometry" />
         </mxCell>
-        <mxCell id="CDrZ7a42aMioSidAUovB-201" value="EXISTING&lt;div&gt;ENTERPRISE&lt;/div&gt;&lt;div&gt;SYSTEMS&lt;/div&gt;" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/ibm/blockchain/existing_enterprise_systems.svg;labelBackgroundColor=none;strokeColor=#4277BB;strokeWidth=2;fillColor=none;gradientColor=none;fontSize=12;fontColor=#4277BB;" vertex="1" parent="CDrZ7a42aMioSidAUovB-200">
+        <mxCell id="CDrZ7a42aMioSidAUovB-201" value="Capteurs &lt;br&gt;Bluetooth" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/ibm/blockchain/existing_enterprise_systems.svg;labelBackgroundColor=none;strokeColor=#4277BB;strokeWidth=2;fillColor=none;gradientColor=none;fontSize=12;fontColor=#4277BB;" vertex="1" parent="CDrZ7a42aMioSidAUovB-200">
           <mxGeometry x="20" y="44" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CDrZ7a42aMioSidAUovB-202" value="Sensor" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/ibm/infrastructure/infrastructure_services.svg;labelBackgroundColor=none;strokeColor=#4277BB;strokeWidth=2;fillColor=none;gradientColor=none;fontSize=12;fontColor=#4277BB;" vertex="1" parent="CDrZ7a42aMioSidAUovB-200">
+        <mxCell id="CDrZ7a42aMioSidAUovB-202" value="Capteurs &lt;br&gt;LoRaWAN" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/ibm/infrastructure/infrastructure_services.svg;labelBackgroundColor=none;strokeColor=#4277BB;strokeWidth=2;fillColor=none;gradientColor=none;fontSize=12;fontColor=#4277BB;" vertex="1" parent="CDrZ7a42aMioSidAUovB-200">
           <mxGeometry x="113" y="44" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CDrZ7a42aMioSidAUovB-203" value="DATA&lt;div&gt;SOURCES&lt;/div&gt;" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/ibm/data/data_sources.svg;labelBackgroundColor=none;strokeColor=#4277BB;strokeWidth=2;fillColor=none;gradientColor=none;fontSize=12;fontColor=#4277BB;" vertex="1" parent="CDrZ7a42aMioSidAUovB-200">
+        <mxCell id="CDrZ7a42aMioSidAUovB-203" value="Capteurs &lt;br&gt;Zigbee" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/ibm/data/data_sources.svg;labelBackgroundColor=none;strokeColor=#4277BB;strokeWidth=2;fillColor=none;gradientColor=none;fontSize=12;fontColor=#4277BB;" vertex="1" parent="CDrZ7a42aMioSidAUovB-200">
           <mxGeometry x="205" y="44" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CDrZ7a42aMioSidAUovB-204" value="ROUTING&lt;div&gt;SERVICES&lt;/div&gt;" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/ibm/infrastructure/load_balancing_routing.svg;labelBackgroundColor=none;strokeColor=#4277BB;strokeWidth=2;fillColor=none;gradientColor=none;fontSize=12;fontColor=#4277BB;" vertex="1" parent="CDrZ7a42aMioSidAUovB-200">
+        <mxCell id="CDrZ7a42aMioSidAUovB-204" value="Capteurs &lt;br&gt;Wi-Fi" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/ibm/infrastructure/load_balancing_routing.svg;labelBackgroundColor=none;strokeColor=#4277BB;strokeWidth=2;fillColor=none;gradientColor=none;fontSize=12;fontColor=#4277BB;" vertex="1" parent="CDrZ7a42aMioSidAUovB-200">
           <mxGeometry x="298" y="44" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CDrZ7a42aMioSidAUovB-205" value="CONTAINER&lt;div&gt;SECURITY&lt;/div&gt;" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/ibm/blockchain/certificate_authority.svg;labelBackgroundColor=none;strokeColor=#4277BB;strokeWidth=2;fillColor=none;gradientColor=none;fontSize=12;fontColor=#4277BB;" vertex="1" parent="CDrZ7a42aMioSidAUovB-200">
+        <mxCell id="CDrZ7a42aMioSidAUovB-205" value="Capteurs &lt;br&gt;Sigfox" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/ibm/blockchain/certificate_authority.svg;labelBackgroundColor=none;strokeColor=#4277BB;strokeWidth=2;fillColor=none;gradientColor=none;fontSize=12;fontColor=#4277BB;" vertex="1" parent="CDrZ7a42aMioSidAUovB-200">
           <mxGeometry x="390" y="44" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CDrZ7a42aMioSidAUovB-206" value="Physique" style="text;html=1;align=left;verticalAlign=middle;fontColor=#4277BB;shadow=0;dashed=0;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontStyle=1;fontSize=12;spacingLeft=5;" vertex="1" parent="CDrZ7a42aMioSidAUovB-200">
+        <mxCell id="CDrZ7a42aMioSidAUovB-206" value="Capteurs" style="text;html=1;align=left;verticalAlign=middle;fontColor=#4277BB;shadow=0;dashed=0;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontStyle=1;fontSize=12;spacingLeft=5;" vertex="1" parent="CDrZ7a42aMioSidAUovB-200">
           <mxGeometry x="8" y="5" width="150" height="20" as="geometry" />
         </mxCell>
         <mxCell id="CDrZ7a42aMioSidAUovB-229" value="" style="swimlane;shadow=1;labelBackgroundColor=#007FFF;strokeColor=#4277BB;fillColor=none;gradientColor=none;fontColor=#000000;align=right;collapsible=0;startSize=0;strokeWidth=3;swimlaneFillColor=#ffffff;" vertex="1" parent="1">
