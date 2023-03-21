@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-21T00:13:01.680Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="_tx-gUMUS9q4DWQPJGje" version="21.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-21T00:36:13.579Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="5kHN4OrrS2ojMHRQsyA9" version="21.0.8" type="github">
   <diagram id="2f404044-711c-603c-8f00-f6bb4c023d3c" name="Page-1">
-    <mxGraphModel dx="1274" dy="2131" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="525" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -321,6 +321,9 @@
         <mxCell id="CDrZ7a42aMioSidAUovB-205" value="Capteurs &lt;br&gt;Sigfox" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/ibm/blockchain/certificate_authority.svg;labelBackgroundColor=none;strokeColor=#4277BB;strokeWidth=2;fillColor=none;gradientColor=none;fontSize=12;fontColor=#4277BB;" vertex="1" parent="CDrZ7a42aMioSidAUovB-200">
           <mxGeometry x="390" y="44" width="60" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="CDrZ7a42aMioSidAUovB-300" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FF3333;strokeWidth=3;" edge="1" parent="1" source="CDrZ7a42aMioSidAUovB-229" target="CDrZ7a42aMioSidAUovB-292">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="CDrZ7a42aMioSidAUovB-229" value="" style="swimlane;shadow=1;labelBackgroundColor=#007FFF;strokeColor=#4277BB;fillColor=none;gradientColor=none;fontColor=#000000;align=right;collapsible=0;startSize=0;strokeWidth=3;swimlaneFillColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="467.5" y="1820" width="190" height="140" as="geometry" />
         </mxCell>
@@ -412,6 +415,33 @@
         </mxCell>
         <mxCell id="CDrZ7a42aMioSidAUovB-291" value="&lt;span style=&quot;color: rgb(209, 213, 219); font-family: Söhne, ui-sans-serif, system-ui, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, Cantarell, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(68, 70, 84); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;AWS IoT Greengrass&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1020" y="1870" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CDrZ7a42aMioSidAUovB-292" value="" style="swimlane;shadow=1;labelBackgroundColor=#007FFF;strokeColor=#4277BB;fillColor=none;gradientColor=none;fontColor=#000000;align=right;collapsible=0;startSize=0;strokeWidth=3;swimlaneFillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="467.5" y="1620" width="190" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="CDrZ7a42aMioSidAUovB-294" value="Orion Context &lt;br&gt;Broker" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/ibm/blockchain/services.svg;labelBackgroundColor=none;strokeColor=#4277BB;strokeWidth=2;fillColor=none;gradientColor=none;fontSize=12;fontColor=#4277BB;" vertex="1" parent="CDrZ7a42aMioSidAUovB-292">
+          <mxGeometry x="65" y="35" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CDrZ7a42aMioSidAUovB-295" value="context provider et &lt;br&gt;context consumer" style="text;html=1;align=center;verticalAlign=middle;fontColor=#4277BB;shadow=0;dashed=0;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontStyle=1;fontSize=12;spacingLeft=5;" vertex="1" parent="CDrZ7a42aMioSidAUovB-292">
+          <mxGeometry x="22.5" y="7" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CDrZ7a42aMioSidAUovB-297" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=1;top=1;bottom=1;fillColor=none;routingCenterX=-0.5;shadow=0;labelBackgroundColor=#ffffff;strokeColor=#4277BB;strokeWidth=2;fontSize=12;fontColor=#4277BB;align=center;" vertex="1" parent="1">
+          <mxGeometry x="647.5" y="1610" width="20" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="CDrZ7a42aMioSidAUovB-298" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=1;top=1;bottom=1;fillColor=none;routingCenterX=-0.5;shadow=0;labelBackgroundColor=#ffffff;strokeColor=#4277BB;strokeWidth=2;fontSize=12;fontColor=#4277BB;align=center;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="460" y="1610" width="20" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="CDrZ7a42aMioSidAUovB-301" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;shape=link;endSize=1.5037037037037035;endWidth=9.79423868312757;entryX=0.989;entryY=0.599;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="538.84" y="1889.94" as="targetPoint" />
+            <mxPoint x="554.5" y="2133.5" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="555" y="1890" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CDrZ7a42aMioSidAUovB-302" value="&lt;span style=&quot;color: rgb(209, 213, 219); font-family: Söhne, ui-sans-serif, system-ui, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, Cantarell, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(68, 70, 84); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;En ajoutant un context provider avant Orion Context Broker, vous pouvez effectivement améliorer les performances globales du système, car le context provider peut agir comme un tampon intermédiaire pour stocker et prétraiter les données avant de les envoyer à Orion Context Broker. Cela peut permettre une meilleure gestion de la charge et une réduction de la latence.&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1820" width="140" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
