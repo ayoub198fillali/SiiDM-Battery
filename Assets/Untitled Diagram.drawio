@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2023-03-23T23:31:39.602Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="Ks8dI4bJrPXfLcIHJRQF" version="21.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-23T23:46:39.126Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="ek2KNa7omaq5bCZuuSw9" version="21.0.8" type="github">
   <diagram id="2f404044-711c-603c-8f00-f6bb4c023d3c" name="Page-1">
-    <mxGraphModel dx="993" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="1397" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="HCqcwdpQIchrRAqbH9Rb-209" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
-          <mxGeometry x="100" y="1320" width="720" height="680" as="geometry" />
+        <mxCell id="HCqcwdpQIchrRAqbH9Rb-209" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;strokeColor=#FF8000;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="90" y="960" width="660" height="680" as="geometry" />
         </mxCell>
         <mxCell id="63" value="" style="swimlane;shadow=0;strokeColor=#4277BB;fillColor=#ffffff;fontColor=none;align=right;startSize=0;collapsible=0;noLabel=1;strokeWidth=3;" parent="1" vertex="1">
-          <mxGeometry x="50" y="220" width="1580" height="951" as="geometry" />
+          <mxGeometry x="-40" y="-690" width="1580" height="951" as="geometry" />
         </mxCell>
         <mxCell id="98" value="" style="swimlane;shadow=0;labelBackgroundColor=#007FFF;strokeColor=#4277BB;fillColor=none;gradientColor=none;fontColor=#000000;align=right;collapsible=0;startSize=0;strokeWidth=3;" parent="63" vertex="1">
           <mxGeometry x="838" y="771" width="142" height="159" as="geometry" />
@@ -268,7 +268,7 @@
           <mxGeometry x="1410" y="546" width="10" height="404" as="geometry" />
         </mxCell>
         <mxCell id="CDrZ7a42aMioSidAUovB-200" value="" style="swimlane;shadow=0;labelBackgroundColor=#007FFF;strokeColor=#4277BB;fillColor=none;gradientColor=none;fontColor=#000000;align=right;collapsible=0;startSize=0;strokeWidth=3;" parent="1" vertex="1">
-          <mxGeometry x="320" y="2090" width="490" height="159" as="geometry" />
+          <mxGeometry x="269" y="1920" width="490" height="159" as="geometry" />
         </mxCell>
         <mxCell id="CDrZ7a42aMioSidAUovB-201" value="Capteurs &lt;br&gt;Bluetooth" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/ibm/blockchain/existing_enterprise_systems.svg;labelBackgroundColor=none;strokeColor=#4277BB;strokeWidth=2;fillColor=none;gradientColor=none;fontSize=12;fontColor=#4277BB;" parent="CDrZ7a42aMioSidAUovB-200" vertex="1">
           <mxGeometry x="20" y="44" width="60" height="60" as="geometry" />
@@ -307,7 +307,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CDrZ7a42aMioSidAUovB-229" value="" style="swimlane;shadow=1;labelBackgroundColor=#007FFF;strokeColor=#4277BB;fillColor=none;gradientColor=none;fontColor=#000000;align=right;collapsible=0;startSize=0;strokeWidth=3;swimlaneFillColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="467.5" y="1820" width="190" height="140" as="geometry" />
+          <mxGeometry x="417.5" y="1460" width="190" height="140" as="geometry" />
         </mxCell>
         <mxCell id="CDrZ7a42aMioSidAUovB-230" value="agents &lt;br&gt;IoT" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/ibm/applications/runtime_services.svg;labelBackgroundColor=none;strokeColor=#4277BB;strokeWidth=2;fillColor=none;gradientColor=none;fontSize=12;fontColor=#4277BB;" parent="CDrZ7a42aMioSidAUovB-229" vertex="1">
           <mxGeometry x="12" y="35" width="60" height="60" as="geometry" />
@@ -318,88 +318,79 @@
         <mxCell id="CDrZ7a42aMioSidAUovB-232" value="Logiciel Open Source" style="text;html=1;align=left;verticalAlign=middle;fontColor=#4277BB;shadow=0;dashed=0;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontStyle=1;fontSize=12;spacingLeft=5;" parent="CDrZ7a42aMioSidAUovB-229" vertex="1">
           <mxGeometry x="20" y="7" width="150" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="CDrZ7a42aMioSidAUovB-244" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;shape=flexArrow;endSize=2.2416666666666667;endWidth=3.611111111111111;width=3.888888888888889;" parent="CDrZ7a42aMioSidAUovB-229" target="CDrZ7a42aMioSidAUovB-231" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="103" y="70" as="targetPoint" />
-            <mxPoint x="87" y="314" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="87" y="65" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="CDrZ7a42aMioSidAUovB-233" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=1;top=1;bottom=1;fillColor=none;routingCenterX=-0.5;shadow=0;labelBackgroundColor=#ffffff;strokeColor=#4277BB;strokeWidth=2;fontSize=12;fontColor=#4277BB;align=center;" parent="1" vertex="1">
-          <mxGeometry x="647.5" y="1810" width="20" height="160" as="geometry" />
+          <mxGeometry x="597.5" y="1450" width="20" height="160" as="geometry" />
         </mxCell>
         <mxCell id="CDrZ7a42aMioSidAUovB-234" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=1;top=1;bottom=1;fillColor=none;routingCenterX=-0.5;shadow=0;labelBackgroundColor=#ffffff;strokeColor=#4277BB;strokeWidth=2;fontSize=12;fontColor=#4277BB;align=center;rotation=-180;" parent="1" vertex="1">
-          <mxGeometry x="460" y="1810" width="20" height="160" as="geometry" />
+          <mxGeometry x="410" y="1450" width="20" height="160" as="geometry" />
         </mxCell>
         <mxCell id="CDrZ7a42aMioSidAUovB-235" value="L1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#4277bb;" parent="1" vertex="1">
-          <mxGeometry x="827" y="2119.5" width="110" height="100" as="geometry" />
+          <mxGeometry x="777" y="1759.5" width="110" height="100" as="geometry" />
         </mxCell>
         <mxCell id="CDrZ7a42aMioSidAUovB-236" value="L2" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#4277bb;" parent="1" vertex="1">
-          <mxGeometry x="827" y="1830" width="110" height="100" as="geometry" />
+          <mxGeometry x="777" y="1470" width="110" height="100" as="geometry" />
         </mxCell>
         <mxCell id="CDrZ7a42aMioSidAUovB-239" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shape=link;" parent="1" target="CDrZ7a42aMioSidAUovB-201" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="460" y="2050" as="sourcePoint" />
+            <mxPoint x="409" y="1880" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="460" y="2050" />
-              <mxPoint x="370" y="2050" />
+              <mxPoint x="409" y="1880" />
+              <mxPoint x="319" y="1880" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="CDrZ7a42aMioSidAUovB-240" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shape=link;" parent="1" target="CDrZ7a42aMioSidAUovB-202" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="550" y="2050" as="sourcePoint" />
-            <mxPoint x="380" y="2094" as="targetPoint" />
+            <mxPoint x="499" y="1880" as="sourcePoint" />
+            <mxPoint x="329" y="1924" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="550" y="2050" />
-              <mxPoint x="463" y="2050" />
+              <mxPoint x="499" y="1880" />
+              <mxPoint x="412" y="1880" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="CDrZ7a42aMioSidAUovB-206" value="Sensors" style="text;html=1;align=left;verticalAlign=middle;fontColor=#4277BB;shadow=0;dashed=0;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontStyle=1;fontSize=12;spacingLeft=5;" parent="1" vertex="1">
-          <mxGeometry x="320" y="2249" width="150" height="20" as="geometry" />
+          <mxGeometry x="269" y="2079" width="150" height="20" as="geometry" />
         </mxCell>
         <mxCell id="CDrZ7a42aMioSidAUovB-245" value="exterior &lt;br&gt;Data Base" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/ibm/data/data_sources.svg;labelBackgroundColor=none;strokeColor=#4277BB;strokeWidth=2;fillColor=none;gradientColor=none;fontSize=12;fontColor=#4277BB;" parent="1" vertex="1">
-          <mxGeometry x="220" y="2139.5" width="60" height="60" as="geometry" />
+          <mxGeometry x="169" y="1969.5" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CDrZ7a42aMioSidAUovB-248" value="exterior &lt;br&gt;API" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/ibm/data/data_sources.svg;labelBackgroundColor=none;strokeColor=#4277BB;strokeWidth=2;fillColor=none;gradientColor=none;fontSize=12;fontColor=#4277BB;" parent="1" vertex="1">
-          <mxGeometry x="140" y="2139.5" width="60" height="60" as="geometry" />
+          <mxGeometry x="89" y="1969.5" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CDrZ7a42aMioSidAUovB-275" value="" style="swimlane;shadow=0;labelBackgroundColor=#007FFF;strokeColor=#4277BB;fillColor=none;gradientColor=none;fontColor=#000000;align=right;collapsible=0;startSize=0;strokeWidth=3;" parent="1" vertex="1">
-          <mxGeometry x="120" y="2090" width="180" height="159" as="geometry" />
+          <mxGeometry x="69" y="1920" width="180" height="159" as="geometry" />
         </mxCell>
         <mxCell id="CDrZ7a42aMioSidAUovB-283" value="Differentes Sources" style="text;html=1;align=left;verticalAlign=middle;fontColor=#4277BB;shadow=0;dashed=0;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontStyle=1;fontSize=12;spacingLeft=5;" parent="1" vertex="1">
-          <mxGeometry x="120" y="2249" width="150" height="20" as="geometry" />
+          <mxGeometry x="69" y="2079" width="150" height="20" as="geometry" />
         </mxCell>
         <mxCell id="CDrZ7a42aMioSidAUovB-289" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shape=link;" parent="1" target="CDrZ7a42aMioSidAUovB-245" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="210" y="2050" as="sourcePoint" />
-            <mxPoint x="260" y="2040" as="targetPoint" />
+            <mxPoint x="159" y="1880" as="sourcePoint" />
+            <mxPoint x="209" y="1870" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="250" y="2050" />
+              <mxPoint x="199" y="1880" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="CDrZ7a42aMioSidAUovB-285" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=link;" parent="1" source="CDrZ7a42aMioSidAUovB-248" target="CDrZ7a42aMioSidAUovB-234" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="220" y="1890" as="targetPoint" />
+            <mxPoint x="170" y="1530" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="170" y="2050" />
-              <mxPoint x="210" y="2050" />
-              <mxPoint x="210" y="1890" />
+              <mxPoint x="120" y="1690" />
+              <mxPoint x="160" y="1690" />
+              <mxPoint x="160" y="1530" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="CDrZ7a42aMioSidAUovB-290" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;border: 0px solid rgb(217, 217, 227); box-sizing: border-box; --tw-border-spacing-x:0; --tw-border-spacing-y:0; --tw-translate-x:0; --tw-translate-y:0; --tw-rotate:0; --tw-skew-x:0; --tw-skew-y:0; --tw-scale-x:1; --tw-scale-y:1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness:proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width:0px; --tw-ring-offset-color:#fff; --tw-ring-color:rgba(59,130,246,0.5); --tw-ring-offset-shadow:0 0 transparent; --tw-ring-shadow:0 0 transparent; --tw-shadow:0 0 transparent; --tw-shadow-colored:0 0 transparent; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; margin: 0px 0px 1.25em; color: rgb(209, 213, 219); font-family: Söhne, ui-sans-serif, system-ui, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, Cantarell, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 16px; text-align: start; background-color: rgb(68, 70, 84);&quot;&gt;Pour le context provider, vous pouvez utiliser le context broker NGSI-LD de Fiware pour collecter et transformer les données provenant des capteurs. Les données seront stockées sous forme de documents JSON-LD, qui sont compatibles avec NGSI-LD.&lt;/p&gt;&lt;p style=&quot;border: 0px solid rgb(217, 217, 227); box-sizing: border-box; --tw-border-spacing-x:0; --tw-border-spacing-y:0; --tw-translate-x:0; --tw-translate-y:0; --tw-rotate:0; --tw-skew-x:0; --tw-skew-y:0; --tw-scale-x:1; --tw-scale-y:1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness:proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width:0px; --tw-ring-offset-color:#fff; --tw-ring-color:rgba(59,130,246,0.5); --tw-ring-offset-shadow:0 0 transparent; --tw-ring-shadow:0 0 transparent; --tw-shadow:0 0 transparent; --tw-shadow-colored:0 0 transparent; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; margin: 0px 0px 1.25em; color: rgb(209, 213, 219); font-family: Söhne, ui-sans-serif, system-ui, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, Cantarell, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 16px; text-align: start; background-color: rgb(68, 70, 84);&quot;&gt;Il existe également d&#39;autres context providers qui sont compatibles avec NGSI-LD, tels que Orion-LD et Scorpio. Cependant, ces derniers sont moins couramment utilisés que le context broker NGSI-LD de Fiware.&lt;/p&gt;&lt;p style=&quot;border: 0px solid rgb(217, 217, 227); box-sizing: border-box; --tw-border-spacing-x:0; --tw-border-spacing-y:0; --tw-translate-x:0; --tw-translate-y:0; --tw-rotate:0; --tw-skew-x:0; --tw-skew-y:0; --tw-scale-x:1; --tw-scale-y:1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness:proximity; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width:0px; --tw-ring-offset-color:#fff; --tw-ring-color:rgba(59,130,246,0.5); --tw-ring-offset-shadow:0 0 transparent; --tw-ring-shadow:0 0 transparent; --tw-shadow:0 0 transparent; --tw-shadow-colored:0 0 transparent; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; margin: 1.25em 0px 0px; color: rgb(209, 213, 219); font-family: Söhne, ui-sans-serif, system-ui, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, Cantarell, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 16px; text-align: start; background-color: rgb(68, 70, 84);&quot;&gt;En résumé, le context broker NGSI-LD de Fiware est un choix solide pour un context provider compatible avec NGSI-LD.&lt;/p&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="989" y="1960" width="665" height="250" as="geometry" />
+          <mxGeometry x="939" y="1600" width="665" height="250" as="geometry" />
         </mxCell>
         <mxCell id="CDrZ7a42aMioSidAUovB-291" value="&lt;span style=&quot;color: rgb(209, 213, 219); font-family: Söhne, ui-sans-serif, system-ui, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, Cantarell, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(68, 70, 84); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;AWS IoT Greengrass&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1460" y="1860" width="180" height="40" as="geometry" />
+          <mxGeometry x="1410" y="1500" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CDrZ7a42aMioSidAUovB-292" value="" style="swimlane;shadow=1;labelBackgroundColor=#007FFF;strokeColor=#4277BB;fillColor=none;gradientColor=none;fontColor=#000000;align=right;collapsible=0;startSize=0;strokeWidth=3;swimlaneFillColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="468" y="1620" width="190" height="140" as="geometry" />
+          <mxGeometry x="418" y="1260" width="190" height="140" as="geometry" />
         </mxCell>
         <mxCell id="CDrZ7a42aMioSidAUovB-294" value="Orion Context &lt;br&gt;Broker" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/ibm/blockchain/services.svg;labelBackgroundColor=none;strokeColor=#4277BB;strokeWidth=2;fillColor=none;gradientColor=none;fontSize=12;fontColor=#4277BB;" parent="CDrZ7a42aMioSidAUovB-292" vertex="1">
           <mxGeometry x="65" y="35" width="60" height="60" as="geometry" />
@@ -411,34 +402,25 @@
           <mxGeometry x="12.5" y="46" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CDrZ7a42aMioSidAUovB-297" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=1;top=1;bottom=1;fillColor=none;routingCenterX=-0.5;shadow=0;labelBackgroundColor=#ffffff;strokeColor=#4277BB;strokeWidth=2;fontSize=12;fontColor=#4277BB;align=center;" parent="1" vertex="1">
-          <mxGeometry x="647.5" y="1610" width="20" height="160" as="geometry" />
+          <mxGeometry x="597.5" y="1250" width="20" height="160" as="geometry" />
         </mxCell>
         <mxCell id="CDrZ7a42aMioSidAUovB-298" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=1;top=1;bottom=1;fillColor=none;routingCenterX=-0.5;shadow=0;labelBackgroundColor=#ffffff;strokeColor=#4277BB;strokeWidth=2;fontSize=12;fontColor=#4277BB;align=center;rotation=-180;" parent="1" vertex="1">
-          <mxGeometry x="460" y="1610" width="20" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="CDrZ7a42aMioSidAUovB-301" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;shape=link;endSize=1.5037037037037035;endWidth=9.79423868312757;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="CDrZ7a42aMioSidAUovB-230" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="538.84" y="1889.94" as="targetPoint" />
-            <mxPoint x="554.5" y="2133.5" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="555" y="1885" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry x="410" y="1250" width="20" height="160" as="geometry" />
         </mxCell>
         <mxCell id="CDrZ7a42aMioSidAUovB-304" value="&lt;p style=&quot;line-height: 40%;&quot;&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;agents &lt;br&gt;IoT&lt;/font&gt;&lt;/p&gt;" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/ibm/applications/runtime_services.svg;labelBackgroundColor=none;strokeColor=#4277BB;strokeWidth=2;fillColor=none;gradientColor=none;fontSize=12;fontColor=#4277BB;spacing=-12;" parent="1" vertex="1">
-          <mxGeometry x="220" y="2000" width="20" height="20" as="geometry" />
+          <mxGeometry x="170" y="1640" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="CDrZ7a42aMioSidAUovB-308" value="&lt;p style=&quot;line-height: 40%;&quot;&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;agents &lt;br&gt;IoT&lt;/font&gt;&lt;/p&gt;" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/ibm/applications/runtime_services.svg;labelBackgroundColor=none;strokeColor=#4277BB;strokeWidth=2;fillColor=none;gradientColor=none;fontSize=12;fontColor=#4277BB;spacing=-12;" parent="1" vertex="1">
-          <mxGeometry x="570" y="2000" width="20" height="20" as="geometry" />
+          <mxGeometry x="520" y="1640" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="CDrZ7a42aMioSidAUovB-309" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/users/sensor.svg;" parent="1" vertex="1">
-          <mxGeometry x="378" y="2253" width="12" height="12" as="geometry" />
+          <mxGeometry x="327" y="2083" width="12" height="12" as="geometry" />
         </mxCell>
         <mxCell id="CDrZ7a42aMioSidAUovB-312" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=1;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.data;fontSize=8;" parent="1" vertex="1">
-          <mxGeometry x="246.5" y="2254.5" width="7" height="9" as="geometry" />
+          <mxGeometry x="195.5" y="2084.5" width="7" height="9" as="geometry" />
         </mxCell>
         <mxCell id="HCqcwdpQIchrRAqbH9Rb-200" value="" style="swimlane;shadow=1;labelBackgroundColor=#007FFF;strokeColor=#4277BB;fillColor=none;gradientColor=none;fontColor=#000000;align=right;collapsible=0;startSize=0;strokeWidth=3;swimlaneFillColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="468.75" y="1387" width="190" height="140" as="geometry" />
+          <mxGeometry x="418.75" y="1027" width="190" height="140" as="geometry" />
         </mxCell>
         <mxCell id="HCqcwdpQIchrRAqbH9Rb-201" value="Cygnus / Apache Flume /&lt;br&gt;Apache NiFi / AWS Kinesis &lt;br&gt;Firehose" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/ibm/blockchain/services.svg;labelBackgroundColor=none;strokeColor=#4277BB;strokeWidth=2;fillColor=none;gradientColor=none;fontSize=12;fontColor=#4277BB;" vertex="1" parent="HCqcwdpQIchrRAqbH9Rb-200">
           <mxGeometry x="65" y="27" width="60" height="60" as="geometry" />
@@ -447,46 +429,58 @@
           <mxGeometry x="22.5" y="7" width="150" height="20" as="geometry" />
         </mxCell>
         <mxCell id="HCqcwdpQIchrRAqbH9Rb-203" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=1;top=1;bottom=1;fillColor=none;routingCenterX=-0.5;shadow=0;labelBackgroundColor=#ffffff;strokeColor=#4277BB;strokeWidth=2;fontSize=12;fontColor=#4277BB;align=center;" vertex="1" parent="1">
-          <mxGeometry x="648.75" y="1378" width="20" height="160" as="geometry" />
+          <mxGeometry x="598.75" y="1018" width="20" height="160" as="geometry" />
         </mxCell>
         <mxCell id="HCqcwdpQIchrRAqbH9Rb-204" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=1;top=1;bottom=1;fillColor=none;routingCenterX=-0.5;shadow=0;labelBackgroundColor=#ffffff;strokeColor=#4277BB;strokeWidth=2;fontSize=12;fontColor=#4277BB;align=center;rotation=-180;" vertex="1" parent="1">
-          <mxGeometry x="461.25" y="1378" width="20" height="160" as="geometry" />
+          <mxGeometry x="411.25" y="1018" width="20" height="160" as="geometry" />
         </mxCell>
         <mxCell id="HCqcwdpQIchrRAqbH9Rb-206" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeColor=#FF3333;strokeWidth=3;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="CDrZ7a42aMioSidAUovB-292" target="HCqcwdpQIchrRAqbH9Rb-200">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="562.3" y="1610" as="sourcePoint" />
-            <mxPoint x="562" y="1560" as="targetPoint" />
+            <mxPoint x="512.3" y="1250" as="sourcePoint" />
+            <mxPoint x="512" y="1200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="HCqcwdpQIchrRAqbH9Rb-218" value="MONITORING" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/ibm/infrastructure/monitoring.svg;labelBackgroundColor=none;strokeColor=#4277BB;strokeWidth=2;fillColor=#E52134;gradientColor=none;fontSize=12;fontColor=#4277BB;" vertex="1" parent="1">
-          <mxGeometry x="670.5" y="1200" width="60" height="60" as="geometry" />
+          <mxGeometry x="620.5" y="840" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HCqcwdpQIchrRAqbH9Rb-219" value="DASHBOARD" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/ibm/infrastructure/dashboard.svg;labelBackgroundColor=none;strokeColor=#4277BB;strokeWidth=2;fillColor=#E52134;gradientColor=none;fontSize=12;fontColor=#4277BB;" vertex="1" parent="1">
-          <mxGeometry x="767.5" y="1200" width="60" height="60" as="geometry" />
+          <mxGeometry x="717.5" y="840" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HCqcwdpQIchrRAqbH9Rb-220" value="DATABASES" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/ibm/data/data_services.svg;labelBackgroundColor=none;strokeColor=#4277BB;strokeWidth=2;fillColor=#E52134;gradientColor=none;fontSize=12;fontColor=#4277BB;" vertex="1" parent="1">
-          <mxGeometry x="583" y="1210" width="60" height="60" as="geometry" />
+          <mxGeometry x="533" y="850" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HCqcwdpQIchrRAqbH9Rb-221" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;EC2 / AWS Fargate / AWS Elastic Beanstalk / AWS App Runner /&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="930" y="1550" width="630" height="40" as="geometry" />
+          <mxGeometry x="880" y="1190" width="630" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HCqcwdpQIchrRAqbH9Rb-224" value="Amazon ECS" style="text;whiteSpace=wrap;html=1;fontSize=16;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="1320" width="100" height="40" as="geometry" />
+          <mxGeometry x="93" y="960" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HCqcwdpQIchrRAqbH9Rb-225" value="En ajoutant un context provider avant Orion Context Broker, vous pouvez effectivement améliorer les performances globales du système, car le context provider peut agir comme un tampon intermédiaire pour stocker et prétraiter les données avant de les envoyer à Orion Context Broker. Cela peut permettre une meilleure gestion de la charge et une réduction de la latence." style="text;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="1010" y="1700" width="220" height="140" as="geometry" />
+          <mxGeometry x="960" y="1340" width="220" height="140" as="geometry" />
         </mxCell>
         <mxCell id="HCqcwdpQIchrRAqbH9Rb-226" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=none;fillStyle=zigzag-line;opacity=90;dashed=1;strokeWidth=2;strokeColor=#3399FF;" vertex="1" parent="1">
-          <mxGeometry x="430" y="1580" width="265" height="404" as="geometry" />
+          <mxGeometry x="380" y="1220" width="265" height="404" as="geometry" />
         </mxCell>
         <mxCell id="HCqcwdpQIchrRAqbH9Rb-229" value="&lt;span style=&quot;font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;EC2 / AWS Fargate&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;fillColor=default;fontColor=#47a3ff;" vertex="1" parent="1">
-          <mxGeometry x="430" y="1580" width="170" height="40" as="geometry" />
+          <mxGeometry x="380" y="1220" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HCqcwdpQIchrRAqbH9Rb-232" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=none;fillStyle=zigzag-line;opacity=90;dashed=1;strokeWidth=2;strokeColor=#3399FF;" vertex="1" parent="1">
-          <mxGeometry x="429.5" y="1335" width="265.5" height="215" as="geometry" />
+          <mxGeometry x="379.5" y="975" width="265.5" height="215" as="geometry" />
         </mxCell>
         <mxCell id="HCqcwdpQIchrRAqbH9Rb-233" value="&lt;span style=&quot;font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;EC2 / AWS Fargate&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;fillColor=default;fontColor=#47a3ff;" vertex="1" parent="1">
-          <mxGeometry x="430" y="1338" width="170" height="40" as="geometry" />
+          <mxGeometry x="380" y="978" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CDrZ7a42aMioSidAUovB-244" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;endSize=2.2416666666666667;endWidth=3.611111111111111;width=3.888888888888889;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" target="CDrZ7a42aMioSidAUovB-231" edge="1" source="HCqcwdpQIchrRAqbH9Rb-216">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520.5" y="1530" as="targetPoint" />
+            <mxPoint x="504" y="1950" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="504.5" y="1525" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HCqcwdpQIchrRAqbH9Rb-234" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.62;dx=8.12;flipH=1;notch=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="491" y="1520" width="11" height="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
