@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2023-03-23T23:24:58.378Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="_We7Ed6UZxpiM90b9UMo" version="21.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-23T23:29:40.703Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="FgqbFmqi1ghb8ZaTeYRv" version="21.0.8" type="github">
   <diagram id="2f404044-711c-603c-8f00-f6bb4c023d3c" name="Page-1">
     <mxGraphModel dx="1444" dy="902" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="HCqcwdpQIchrRAqbH9Rb-209" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="HCqcwdpQIchrRAqbH9Rb-209" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
           <mxGeometry x="100" y="1390" width="720" height="610" as="geometry" />
         </mxCell>
         <mxCell id="63" value="" style="swimlane;shadow=0;strokeColor=#4277BB;fillColor=#ffffff;fontColor=none;align=right;startSize=0;collapsible=0;noLabel=1;strokeWidth=3;" parent="1" vertex="1">
@@ -399,7 +399,7 @@
           <mxGeometry x="1460" y="1860" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CDrZ7a42aMioSidAUovB-292" value="" style="swimlane;shadow=1;labelBackgroundColor=#007FFF;strokeColor=#4277BB;fillColor=none;gradientColor=none;fontColor=#000000;align=right;collapsible=0;startSize=0;strokeWidth=3;swimlaneFillColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="467.5" y="1620" width="190" height="140" as="geometry" />
+          <mxGeometry x="468" y="1620" width="190" height="140" as="geometry" />
         </mxCell>
         <mxCell id="CDrZ7a42aMioSidAUovB-294" value="Orion Context &lt;br&gt;Broker" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/ibm/blockchain/services.svg;labelBackgroundColor=none;strokeColor=#4277BB;strokeWidth=2;fillColor=none;gradientColor=none;fontSize=12;fontColor=#4277BB;" parent="CDrZ7a42aMioSidAUovB-292" vertex="1">
           <mxGeometry x="65" y="35" width="60" height="60" as="geometry" />
@@ -438,7 +438,7 @@
           <mxGeometry x="246.5" y="2254.5" width="7" height="9" as="geometry" />
         </mxCell>
         <mxCell id="HCqcwdpQIchrRAqbH9Rb-200" value="" style="swimlane;shadow=1;labelBackgroundColor=#007FFF;strokeColor=#4277BB;fillColor=none;gradientColor=none;fontColor=#000000;align=right;collapsible=0;startSize=0;strokeWidth=3;swimlaneFillColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="468.75" y="1420" width="190" height="140" as="geometry" />
+          <mxGeometry x="468.75" y="1412" width="190" height="140" as="geometry" />
         </mxCell>
         <mxCell id="HCqcwdpQIchrRAqbH9Rb-201" value="Cygnus / Apache Flume /&lt;br&gt;Apache NiFi / AWS Kinesis &lt;br&gt;Firehose" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/ibm/blockchain/services.svg;labelBackgroundColor=none;strokeColor=#4277BB;strokeWidth=2;fillColor=none;gradientColor=none;fontSize=12;fontColor=#4277BB;" vertex="1" parent="HCqcwdpQIchrRAqbH9Rb-200">
           <mxGeometry x="65" y="27" width="60" height="60" as="geometry" />
@@ -447,12 +447,12 @@
           <mxGeometry x="22.5" y="7" width="150" height="20" as="geometry" />
         </mxCell>
         <mxCell id="HCqcwdpQIchrRAqbH9Rb-203" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=1;top=1;bottom=1;fillColor=none;routingCenterX=-0.5;shadow=0;labelBackgroundColor=#ffffff;strokeColor=#4277BB;strokeWidth=2;fontSize=12;fontColor=#4277BB;align=center;" vertex="1" parent="1">
-          <mxGeometry x="648.75" y="1410" width="20" height="160" as="geometry" />
+          <mxGeometry x="648.75" y="1403" width="20" height="160" as="geometry" />
         </mxCell>
         <mxCell id="HCqcwdpQIchrRAqbH9Rb-204" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=1;top=1;bottom=1;fillColor=none;routingCenterX=-0.5;shadow=0;labelBackgroundColor=#ffffff;strokeColor=#4277BB;strokeWidth=2;fontSize=12;fontColor=#4277BB;align=center;rotation=-180;" vertex="1" parent="1">
-          <mxGeometry x="461.25" y="1410" width="20" height="160" as="geometry" />
+          <mxGeometry x="461.25" y="1403" width="20" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="HCqcwdpQIchrRAqbH9Rb-206" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeColor=#FF3333;strokeWidth=3;" edge="1" parent="1" source="CDrZ7a42aMioSidAUovB-292">
+        <mxCell id="HCqcwdpQIchrRAqbH9Rb-206" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeColor=#FF3333;strokeWidth=3;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="CDrZ7a42aMioSidAUovB-292" target="HCqcwdpQIchrRAqbH9Rb-200">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="562.3" y="1610" as="sourcePoint" />
             <mxPoint x="562" y="1560" as="targetPoint" />
@@ -470,11 +470,17 @@
         <mxCell id="HCqcwdpQIchrRAqbH9Rb-221" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;EC2 / AWS Fargate / AWS Elastic Beanstalk / AWS App Runner /&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="930" y="1550" width="630" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="HCqcwdpQIchrRAqbH9Rb-224" value="Amazon ECS" style="text;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="HCqcwdpQIchrRAqbH9Rb-224" value="Amazon ECS" style="text;whiteSpace=wrap;html=1;fontSize=16;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
           <mxGeometry x="110" y="1350" width="630" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HCqcwdpQIchrRAqbH9Rb-225" value="En ajoutant un context provider avant Orion Context Broker, vous pouvez effectivement améliorer les performances globales du système, car le context provider peut agir comme un tampon intermédiaire pour stocker et prétraiter les données avant de les envoyer à Orion Context Broker. Cela peut permettre une meilleure gestion de la charge et une réduction de la latence." style="text;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="1010" y="1700" width="220" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="HCqcwdpQIchrRAqbH9Rb-226" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=none;fillStyle=zigzag-line;opacity=90;dashed=1;strokeWidth=2;strokeColor=#3399FF;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1580" width="265" height="404" as="geometry" />
+        </mxCell>
+        <mxCell id="HCqcwdpQIchrRAqbH9Rb-229" value="&lt;span style=&quot;font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;EC2 / AWS Fargate&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;fillColor=default;fontColor=#47a3ff;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1580" width="170" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
