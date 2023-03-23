@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-23T22:37:23.914Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="xYUnwEo7NXm0-FIEPooc" version="21.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-23T22:40:54.677Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="evpubbTgQ-5EIA5kyZnJ" version="21.0.8" type="github">
   <diagram id="2f404044-711c-603c-8f00-f6bb4c023d3c" name="Page-1">
-    <mxGraphModel dx="786" dy="980" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="225" dy="280" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -315,8 +315,8 @@
         <mxCell id="CDrZ7a42aMioSidAUovB-231" value="Context&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Providers" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/ibm/blockchain/services.svg;labelBackgroundColor=none;strokeColor=#4277BB;strokeWidth=2;fillColor=none;gradientColor=none;fontSize=12;fontColor=#4277BB;" parent="CDrZ7a42aMioSidAUovB-229" vertex="1">
           <mxGeometry x="107" y="35" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CDrZ7a42aMioSidAUovB-232" value="PaaS (Platform as a Service)" style="text;html=1;align=left;verticalAlign=middle;fontColor=#4277BB;shadow=0;dashed=0;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontStyle=1;fontSize=12;spacingLeft=5;" parent="CDrZ7a42aMioSidAUovB-229" vertex="1">
-          <mxGeometry x="5" y="7" width="150" height="20" as="geometry" />
+        <mxCell id="CDrZ7a42aMioSidAUovB-232" value="Logiciel Open Source" style="text;html=1;align=left;verticalAlign=middle;fontColor=#4277BB;shadow=0;dashed=0;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontStyle=1;fontSize=12;spacingLeft=5;" parent="CDrZ7a42aMioSidAUovB-229" vertex="1">
+          <mxGeometry x="20" y="7" width="150" height="20" as="geometry" />
         </mxCell>
         <mxCell id="CDrZ7a42aMioSidAUovB-244" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;shape=flexArrow;endSize=2.2416666666666667;endWidth=3.611111111111111;width=3.888888888888889;" parent="CDrZ7a42aMioSidAUovB-229" target="CDrZ7a42aMioSidAUovB-231" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -406,6 +406,9 @@
         </mxCell>
         <mxCell id="CDrZ7a42aMioSidAUovB-295" value="context provider et &lt;br&gt;context consumer" style="text;html=1;align=center;verticalAlign=middle;fontColor=#4277BB;shadow=0;dashed=0;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontStyle=1;fontSize=12;spacingLeft=5;" parent="CDrZ7a42aMioSidAUovB-292" vertex="1">
           <mxGeometry x="22.5" y="7" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HCqcwdpQIchrRAqbH9Rb-212" value="SaaS&lt;br&gt;PasS" style="text;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="CDrZ7a42aMioSidAUovB-292">
+          <mxGeometry x="12.5" y="46" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CDrZ7a42aMioSidAUovB-297" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=1;top=1;bottom=1;fillColor=none;routingCenterX=-0.5;shadow=0;labelBackgroundColor=#ffffff;strokeColor=#4277BB;strokeWidth=2;fontSize=12;fontColor=#4277BB;align=center;" parent="1" vertex="1">
           <mxGeometry x="647.5" y="1610" width="20" height="160" as="geometry" />
