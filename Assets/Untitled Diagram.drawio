@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-23T22:40:54.677Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="evpubbTgQ-5EIA5kyZnJ" version="21.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-23T22:42:10.031Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="3ucxNM6p31oqrF65i-Ud" version="21.0.8" type="github">
   <diagram id="2f404044-711c-603c-8f00-f6bb4c023d3c" name="Page-1">
-    <mxGraphModel dx="225" dy="280" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="462" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -276,9 +276,6 @@
         <mxCell id="CDrZ7a42aMioSidAUovB-202" value="Capteurs &lt;br&gt;LoRaWAN" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/ibm/infrastructure/infrastructure_services.svg;labelBackgroundColor=none;strokeColor=#4277BB;strokeWidth=2;fillColor=none;gradientColor=none;fontSize=12;fontColor=#4277BB;" parent="CDrZ7a42aMioSidAUovB-200" vertex="1">
           <mxGeometry x="113" y="44" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CDrZ7a42aMioSidAUovB-203" value="Capteurs &lt;br&gt;Zigbee" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/ibm/data/data_sources.svg;labelBackgroundColor=none;strokeColor=#4277BB;strokeWidth=2;fillColor=none;gradientColor=none;fontSize=12;fontColor=#4277BB;" parent="CDrZ7a42aMioSidAUovB-200" vertex="1">
-          <mxGeometry x="205" y="44" width="60" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="CDrZ7a42aMioSidAUovB-242" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;shape=link;" parent="CDrZ7a42aMioSidAUovB-200" source="CDrZ7a42aMioSidAUovB-204" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="240" y="-40" as="targetPoint" />
@@ -302,6 +299,9 @@
         </mxCell>
         <mxCell id="CDrZ7a42aMioSidAUovB-205" value="Capteurs &lt;br&gt;Sigfox" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/ibm/blockchain/certificate_authority.svg;labelBackgroundColor=none;strokeColor=#4277BB;strokeWidth=2;fillColor=none;gradientColor=none;fontSize=12;fontColor=#4277BB;" parent="CDrZ7a42aMioSidAUovB-200" vertex="1">
           <mxGeometry x="390" y="44" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HCqcwdpQIchrRAqbH9Rb-216" value="Capteurs&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Zigbee" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/ibm/infrastructure/infrastructure_services.svg;labelBackgroundColor=none;strokeColor=#4277BB;strokeWidth=2;fillColor=none;gradientColor=none;fontSize=12;fontColor=#4277BB;" vertex="1" parent="CDrZ7a42aMioSidAUovB-200">
+          <mxGeometry x="205" y="44" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CDrZ7a42aMioSidAUovB-300" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FF3333;strokeWidth=3;" parent="1" source="CDrZ7a42aMioSidAUovB-229" target="CDrZ7a42aMioSidAUovB-292" edge="1">
           <mxGeometry relative="1" as="geometry" />
