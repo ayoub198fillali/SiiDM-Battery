@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-24T09:16:37.764Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="0LshCioSvBL-X4L3uLPs" version="21.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-24T10:29:26.834Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="C8LOplI7h7e_7c3cQL1E" version="21.1.0" type="github">
   <diagram id="2f404044-711c-603c-8f00-f6bb4c023d3c" name="Page-1">
-    <mxGraphModel dx="3404" dy="2167" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="4279" dy="2667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -396,7 +396,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CDrZ7a42aMioSidAUovB-290" value="Pour le context provider, vous pouvez utiliser le context broker NGSI-LD de Fiware pour collecter et transformer les données provenant des capteurs. Les données seront stockées sous forme de documents JSON-LD, qui sont compatibles avec NGSI-LD.&#xa;&#xa;&#xa;Il existe également d&#39;autres context providers qui sont compatibles avec NGSI-LD, tels que Orion-LD et Scorpio. Cependant, ces derniers sont moins couramment utilisés que le context broker NGSI-LD de Fiware.&#xa;&#xa;&#xa;En résumé, le context broker NGSI-LD de Fiware est un choix solide pour un context provider compatible avec NGSI-LD." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-1020" y="2050" width="665" height="250" as="geometry" />
+          <mxGeometry x="-1590" y="2007" width="665" height="250" as="geometry" />
         </mxCell>
         <mxCell id="CDrZ7a42aMioSidAUovB-292" value="" style="swimlane;shadow=1;labelBackgroundColor=#007FFF;strokeColor=#4277BB;fillColor=none;gradientColor=none;fontColor=#000000;align=right;collapsible=0;startSize=0;strokeWidth=3;swimlaneFillColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="118" y="1272" width="190" height="140" as="geometry" />
@@ -450,13 +450,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="HCqcwdpQIchrRAqbH9Rb-221" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;EC2 / AWS Fargate / AWS Elastic Beanstalk / AWS App Runner /&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="-1000" y="1280" width="630" height="40" as="geometry" />
+          <mxGeometry x="-1555" y="1828" width="475" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HCqcwdpQIchrRAqbH9Rb-224" value="Amazon ECS" style="text;whiteSpace=wrap;html=1;fontSize=16;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
           <mxGeometry x="-207" y="972" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HCqcwdpQIchrRAqbH9Rb-225" value="En ajoutant un context provider avant Orion Context Broker, vous pouvez effectivement améliorer les performances globales du système, car le context provider peut agir comme un tampon intermédiaire pour stocker et prétraiter les données avant de les envoyer à Orion Context Broker. Cela peut permettre une meilleure gestion de la charge et une réduction de la latence." style="text;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="-1010" y="1710" width="650" height="140" as="geometry" />
+          <mxGeometry x="-1600" y="1890" width="650" height="140" as="geometry" />
         </mxCell>
         <mxCell id="HCqcwdpQIchrRAqbH9Rb-226" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=none;fillStyle=zigzag-line;opacity=90;dashed=1;strokeWidth=2;strokeColor=#3399FF;" parent="1" vertex="1">
           <mxGeometry x="80" y="1232" width="265" height="404" as="geometry" />
@@ -528,7 +528,7 @@
           <mxGeometry x="760" y="670" width="750" height="1310" as="geometry" />
         </mxCell>
         <mxCell id="HCqcwdpQIchrRAqbH9Rb-256" value="AWS IoT Greengrass" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="-498" y="1489" width="60" height="30" as="geometry" />
+          <mxGeometry x="-1050" y="1833" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ajUn3QYX1oUXso2-Ttgx-201" value="F&amp;nbsp;" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="730" y="1739" width="20" height="218" as="geometry" />
