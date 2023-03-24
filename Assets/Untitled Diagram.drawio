@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-24T08:18:26.730Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="wc6VzX5tAg42WDX-Ck_u" version="21.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-24T08:25:49.527Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="GtWA-P6QW0bSazIulnkY" version="21.1.0" type="github">
   <diagram id="2f404044-711c-603c-8f00-f6bb4c023d3c" name="Page-1">
-    <mxGraphModel dx="3404" dy="2167" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3154" dy="2025" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -456,7 +456,7 @@
           <mxGeometry x="-207" y="972" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HCqcwdpQIchrRAqbH9Rb-225" value="En ajoutant un context provider avant Orion Context Broker, vous pouvez effectivement améliorer les performances globales du système, car le context provider peut agir comme un tampon intermédiaire pour stocker et prétraiter les données avant de les envoyer à Orion Context Broker. Cela peut permettre une meilleure gestion de la charge et une réduction de la latence." style="text;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="-650" y="1710" width="220" height="140" as="geometry" />
+          <mxGeometry x="-1010" y="1710" width="650" height="140" as="geometry" />
         </mxCell>
         <mxCell id="HCqcwdpQIchrRAqbH9Rb-226" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=none;fillStyle=zigzag-line;opacity=90;dashed=1;strokeWidth=2;strokeColor=#3399FF;" parent="1" vertex="1">
           <mxGeometry x="80" y="1232" width="265" height="404" as="geometry" />
@@ -529,6 +529,9 @@
         </mxCell>
         <mxCell id="HCqcwdpQIchrRAqbH9Rb-256" value="AWS IoT Greengrass" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="-498" y="1489" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ajUn3QYX1oUXso2-Ttgx-201" value="F&amp;nbsp;" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="730" y="1787" width="20" height="218" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
