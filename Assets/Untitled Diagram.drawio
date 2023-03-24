@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2023-03-24T00:03:32.728Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="VAeOz9m6gz-bji42XygZ" version="21.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-24T00:04:36.748Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="G5sjvvqTA7ctdlS5wQl9" version="21.0.8" type="github">
   <diagram id="2f404044-711c-603c-8f00-f6bb4c023d3c" name="Page-1">
-    <mxGraphModel dx="2729" dy="2271" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2144" dy="1932" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="HCqcwdpQIchrRAqbH9Rb-243" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#009900;" vertex="1" parent="1">
+        <mxCell id="HCqcwdpQIchrRAqbH9Rb-243" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#006633;" vertex="1" parent="1">
           <mxGeometry x="70" y="570" width="700" height="1200" as="geometry" />
         </mxCell>
         <mxCell id="HCqcwdpQIchrRAqbH9Rb-239" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#009900;" vertex="1" parent="1">
@@ -446,15 +446,6 @@
             <mxPoint x="512" y="1200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HCqcwdpQIchrRAqbH9Rb-218" value="MONITORING" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/ibm/infrastructure/monitoring.svg;labelBackgroundColor=none;strokeColor=#4277BB;strokeWidth=2;fillColor=#E52134;gradientColor=none;fontSize=12;fontColor=#4277BB;" vertex="1" parent="1">
-          <mxGeometry x="627.5" y="460" width="60" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="HCqcwdpQIchrRAqbH9Rb-219" value="DASHBOARD" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/ibm/infrastructure/dashboard.svg;labelBackgroundColor=none;strokeColor=#4277BB;strokeWidth=2;fillColor=#E52134;gradientColor=none;fontSize=12;fontColor=#4277BB;" vertex="1" parent="1">
-          <mxGeometry x="724.5" y="460" width="60" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="HCqcwdpQIchrRAqbH9Rb-220" value="DATABASES" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/ibm/data/data_services.svg;labelBackgroundColor=none;strokeColor=#4277BB;strokeWidth=2;fillColor=#E52134;gradientColor=none;fontSize=12;fontColor=#4277BB;" vertex="1" parent="1">
-          <mxGeometry x="540" y="470" width="60" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="HCqcwdpQIchrRAqbH9Rb-221" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;EC2 / AWS Fargate / AWS Elastic Beanstalk / AWS App Runner /&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="880" y="1190" width="630" height="40" as="geometry" />
         </mxCell>
@@ -505,6 +496,18 @@
         </mxCell>
         <mxCell id="HCqcwdpQIchrRAqbH9Rb-242" value="Private SubNet" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#40b140;" vertex="1" parent="1">
           <mxGeometry x="80" y="580" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HCqcwdpQIchrRAqbH9Rb-220" value="DATABASES" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/ibm/data/data_services.svg;labelBackgroundColor=none;strokeColor=#4277BB;strokeWidth=2;fillColor=#E52134;gradientColor=none;fontSize=12;fontColor=#4277BB;" vertex="1" parent="1">
+          <mxGeometry x="687.5" y="620" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HCqcwdpQIchrRAqbH9Rb-218" value="MONITORING" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/ibm/infrastructure/monitoring.svg;labelBackgroundColor=none;strokeColor=#4277BB;strokeWidth=2;fillColor=#E52134;gradientColor=none;fontSize=12;fontColor=#4277BB;" vertex="1" parent="1">
+          <mxGeometry x="491" y="630" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HCqcwdpQIchrRAqbH9Rb-219" value="DASHBOARD" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/ibm/infrastructure/dashboard.svg;labelBackgroundColor=none;strokeColor=#4277BB;strokeWidth=2;fillColor=#E52134;gradientColor=none;fontSize=12;fontColor=#4277BB;" vertex="1" parent="1">
+          <mxGeometry x="588" y="630" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HCqcwdpQIchrRAqbH9Rb-244" value="VPC" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#006633;" vertex="1" parent="1">
+          <mxGeometry x="70" y="540" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
