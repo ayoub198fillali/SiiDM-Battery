@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-29T13:23:28.702Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="fI1sIZkmKEnGcuaGM9ud" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-30T14:34:07.388Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="Kyc4SyCeZ3hRXngSoC9-" version="21.1.1" type="github">
   <diagram id="2f404044-711c-603c-8f00-f6bb4c023d3c" name="Page-1">
-    <mxGraphModel dx="2307" dy="1915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2601" dy="2240" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -456,7 +456,7 @@
           <mxGeometry x="-1600" y="1890" width="650" height="140" as="geometry" />
         </mxCell>
         <mxCell id="HCqcwdpQIchrRAqbH9Rb-226" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=none;fillStyle=zigzag-line;opacity=90;dashed=1;strokeWidth=2;strokeColor=#3399FF;" parent="1" vertex="1">
-          <mxGeometry x="79" y="1235" width="265" height="404" as="geometry" />
+          <mxGeometry x="80" y="1232" width="265" height="404" as="geometry" />
         </mxCell>
         <mxCell id="HCqcwdpQIchrRAqbH9Rb-229" value="&lt;span style=&quot;font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;EC2 / AWS Fargate&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;fillColor=default;fontColor=#47a3ff;" parent="1" vertex="1">
           <mxGeometry x="80" y="1232" width="160" height="30" as="geometry" />
@@ -565,6 +565,9 @@
         </mxCell>
         <mxCell id="CDrZ7a42aMioSidAUovB-231" value="Context&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Providers" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/ibm/blockchain/services.svg;labelBackgroundColor=none;strokeColor=#4277BB;strokeWidth=2;fillColor=none;gradientColor=none;fontSize=12;fontColor=#4277BB;" parent="1" vertex="1">
           <mxGeometry x="14" y="1412" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mY4sx5cN1qzWW2Ci2DNY-203" value="&lt;h1&gt;Heading&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-508" y="1602" width="190" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
