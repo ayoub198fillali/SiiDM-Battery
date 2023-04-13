@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-04-13T08:02:37.434Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="PUGAdXq4qnljiXfXFOM1" version="21.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-13T08:07:20.532Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="yaPM3q5lnd0UYW88alen" version="21.1.0" type="github">
   <diagram id="2f404044-711c-603c-8f00-f6bb4c023d3c" name="Page-1">
-    <mxGraphModel dx="2588" dy="1649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2448" dy="1577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="zC_CfcCXH5zKAHfzKqE9-217" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1640" y="1050" width="300" height="450" as="geometry" />
+        </mxCell>
         <mxCell id="lHgg8_kq4FCSIR8R8PC4-287" value="" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="-1193" y="60" width="170" height="167.5" as="geometry" />
         </mxCell>
@@ -18,9 +21,6 @@
         </mxCell>
         <mxCell id="lHgg8_kq4FCSIR8R8PC4-248" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1453" y="-221" width="60" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="HCqcwdpQIchrRAqbH9Rb-246" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#2C67DD;" parent="1" vertex="1">
-          <mxGeometry x="-1645" y="1040" width="855" height="480" as="geometry" />
         </mxCell>
         <mxCell id="HCqcwdpQIchrRAqbH9Rb-243" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#006633;" parent="1" vertex="1">
           <mxGeometry x="-230" y="582" width="700" height="1200" as="geometry" />
@@ -593,8 +593,8 @@
         <mxCell id="lHgg8_kq4FCSIR8R8PC4-220" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#3F8624;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.mqtt_protocol;" parent="1" vertex="1">
           <mxGeometry x="-1275.5" y="1236" width="36" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="lHgg8_kq4FCSIR8R8PC4-221" value="&lt;p style=&quot;line-height: 40%;&quot;&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;agents &lt;br&gt;IoT&lt;/font&gt;&lt;/p&gt;" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/ibm/applications/runtime_services.svg;labelBackgroundColor=none;strokeColor=#4277BB;strokeWidth=2;fillColor=none;gradientColor=none;fontSize=12;fontColor=#4277BB;spacing=-12;" parent="1" vertex="1">
-          <mxGeometry x="-1390" y="1232" width="37" height="37" as="geometry" />
+        <mxCell id="lHgg8_kq4FCSIR8R8PC4-221" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/ibm/applications/runtime_services.svg;labelBackgroundColor=none;strokeColor=#4277BB;strokeWidth=2;fillColor=none;gradientColor=none;fontSize=12;fontColor=#4277BB;spacing=-12;imageBackground=default;" parent="1" vertex="1">
+          <mxGeometry x="-1392.5" y="1232" width="37" height="37" as="geometry" />
         </mxCell>
         <mxCell id="lHgg8_kq4FCSIR8R8PC4-222" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -835,6 +835,12 @@
         </mxCell>
         <mxCell id="zC_CfcCXH5zKAHfzKqE9-210" value="Temp/Cell&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="zC_CfcCXH5zKAHfzKqE9-215">
           <mxGeometry y="44" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zC_CfcCXH5zKAHfzKqE9-218" value="IOT Agent" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-1404" y="1260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zC_CfcCXH5zKAHfzKqE9-222" value="STM 32" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;fontColor=#3f8624;" vertex="1" parent="1">
+          <mxGeometry x="-1535" y="1500" width="93.33" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
