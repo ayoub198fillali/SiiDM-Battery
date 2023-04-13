@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-13T09:04:55.627Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="FC0zRniCFNBEV5rhbzge" version="21.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-13T09:06:51.635Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="07kr9qSRDRV-pPY7fRNV" version="21.1.0" type="github">
   <diagram id="2f404044-711c-603c-8f00-f6bb4c023d3c" name="Page-1">
-    <mxGraphModel dx="4896" dy="1985" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="4102" dy="1577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -606,10 +606,10 @@
           <mxGeometry x="-2150" y="-210" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="zC_CfcCXH5zKAHfzKqE9-249" value="Zone Geo" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1961.75" y="79" width="60" height="30" as="geometry" />
+          <mxGeometry x="-1961.75" y="39" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zC_CfcCXH5zKAHfzKqE9-250" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1969.5" y="-121.25" width="379.5" height="158.5" as="geometry" />
+        <mxCell id="zC_CfcCXH5zKAHfzKqE9-250" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#4277bb;" vertex="1" parent="1">
+          <mxGeometry x="-1969.5" y="-121.25" width="259.5" height="158.5" as="geometry" />
         </mxCell>
         <mxCell id="zC_CfcCXH5zKAHfzKqE9-251" value="EC2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1969.5" y="-160" width="60" height="30" as="geometry" />
@@ -846,10 +846,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zC_CfcCXH5zKAHfzKqE9-315" value="Orion Context &lt;br&gt;Broker" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/ibm/blockchain/services.svg;labelBackgroundColor=none;strokeColor=#4277BB;strokeWidth=2;fillColor=none;gradientColor=none;fontSize=12;fontColor=#4277BB;" vertex="1" parent="1">
-          <mxGeometry x="-1894.75" y="-76" width="60" height="60" as="geometry" />
+          <mxGeometry x="-1919.75" y="-72" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zC_CfcCXH5zKAHfzKqE9-316" value="Cygnus" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/ibm/blockchain/services.svg;labelBackgroundColor=none;strokeColor=#4277BB;strokeWidth=2;fillColor=none;gradientColor=none;fontSize=12;fontColor=#4277BB;" vertex="1" parent="1">
-          <mxGeometry x="-1724.75" y="-76" width="60" height="60" as="geometry" />
+          <mxGeometry x="-1800" y="-73" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zC_CfcCXH5zKAHfzKqE9-318" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1968" y="-41" as="sourcePoint" />
+            <mxPoint x="-1920" y="-41" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zC_CfcCXH5zKAHfzKqE9-319" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1860" y="-40" as="sourcePoint" />
+            <mxPoint x="-1800" y="-40" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
