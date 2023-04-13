@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-13T08:07:45.763Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="sXqXGU09L3m-FydLUpFN" version="21.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-13T08:08:13.745Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="gmOZxh_NHDCnSSKtlfqp" version="21.1.0" type="github">
   <diagram id="2f404044-711c-603c-8f00-f6bb4c023d3c" name="Page-1">
-    <mxGraphModel dx="2448" dy="1577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2108" dy="1402" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -588,13 +588,10 @@
           <mxGeometry x="740" y="1803" width="20" height="218" as="geometry" />
         </mxCell>
         <mxCell id="lHgg8_kq4FCSIR8R8PC4-216" value="Intern" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="-1575" y="1252" width="20" height="228" as="geometry" />
+          <mxGeometry x="-1571" y="1252" width="20" height="228" as="geometry" />
         </mxCell>
         <mxCell id="lHgg8_kq4FCSIR8R8PC4-220" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#3F8624;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.mqtt_protocol;" parent="1" vertex="1">
           <mxGeometry x="-1275.5" y="1236" width="36" height="36" as="geometry" />
-        </mxCell>
-        <mxCell id="lHgg8_kq4FCSIR8R8PC4-221" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/ibm/applications/runtime_services.svg;labelBackgroundColor=none;strokeColor=#4277BB;strokeWidth=2;fillColor=none;gradientColor=none;fontSize=12;fontColor=#4277BB;spacing=-12;imageBackground=default;" parent="1" vertex="1">
-          <mxGeometry x="-1392.5" y="1232" width="37" height="37" as="geometry" />
         </mxCell>
         <mxCell id="lHgg8_kq4FCSIR8R8PC4-222" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -836,11 +833,17 @@
         <mxCell id="zC_CfcCXH5zKAHfzKqE9-210" value="Temp/Cell&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="zC_CfcCXH5zKAHfzKqE9-215">
           <mxGeometry y="44" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zC_CfcCXH5zKAHfzKqE9-218" value="IOT Agent" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="-1404" y="1260" width="60" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="zC_CfcCXH5zKAHfzKqE9-222" value="STM 32" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;fontColor=#3f8624;" vertex="1" parent="1">
           <mxGeometry x="-1535" y="1500" width="93.33" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zC_CfcCXH5zKAHfzKqE9-223" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-1404" y="1232" width="60" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="lHgg8_kq4FCSIR8R8PC4-221" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/ibm/applications/runtime_services.svg;labelBackgroundColor=none;strokeColor=#4277BB;strokeWidth=2;fillColor=none;gradientColor=none;fontSize=12;fontColor=#4277BB;spacing=-12;imageBackground=default;" parent="zC_CfcCXH5zKAHfzKqE9-223" vertex="1">
+          <mxGeometry x="11.5" width="37" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="zC_CfcCXH5zKAHfzKqE9-218" value="IOT Agent" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="zC_CfcCXH5zKAHfzKqE9-223">
+          <mxGeometry y="28" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
