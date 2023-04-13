@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-13T08:00:49.067Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="8VLumkUbJOBa8ANvs3mW" version="21.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-13T08:01:16.827Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="QUDbKCeHShy4ewLwTppw" version="21.1.0" type="github">
   <diagram id="2f404044-711c-603c-8f00-f6bb4c023d3c" name="Page-1">
-    <mxGraphModel dx="2316" dy="1509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2588" dy="1649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -601,9 +601,6 @@
             <mxPoint x="-1340" y="1252" as="sourcePoint" />
             <mxPoint x="-1160" y="1252" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="lHgg8_kq4FCSIR8R8PC4-223" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="lHgg8_kq4FCSIR8R8PC4-221" target="lHgg8_kq4FCSIR8R8PC4-221" edge="1">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lHgg8_kq4FCSIR8R8PC4-224" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Data_Lake.svg;" parent="1" vertex="1">
           <mxGeometry x="-1146.88" y="1203" width="66.88" height="88" as="geometry" />
