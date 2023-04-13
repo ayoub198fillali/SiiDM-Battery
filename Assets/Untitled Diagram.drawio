@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-04-13T09:06:51.635Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="07kr9qSRDRV-pPY7fRNV" version="21.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-13T09:09:14.651Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="b3m5Q9Ica7pr2i9eg898" version="21.1.0" type="github">
   <diagram id="2f404044-711c-603c-8f00-f6bb4c023d3c" name="Page-1">
-    <mxGraphModel dx="4102" dy="1577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="4442" dy="1752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="zC_CfcCXH5zKAHfzKqE9-334" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#4277bb;" vertex="1" parent="1">
+          <mxGeometry x="-1640" y="-198.5" width="370" height="318.5" as="geometry" />
+        </mxCell>
         <mxCell id="HCqcwdpQIchrRAqbH9Rb-243" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#006633;" parent="1" vertex="1">
           <mxGeometry x="-230" y="582" width="700" height="1200" as="geometry" />
         </mxCell>
@@ -861,6 +864,35 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-1860" y="-40" as="sourcePoint" />
             <mxPoint x="-1800" y="-40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zC_CfcCXH5zKAHfzKqE9-327" value="DATABASES" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/ibm/data/data_services.svg;labelBackgroundColor=none;strokeColor=#4277BB;strokeWidth=2;fillColor=#E52134;gradientColor=none;fontSize=12;fontColor=#4277BB;" vertex="1" parent="1">
+          <mxGeometry x="-1485" y="-170" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zC_CfcCXH5zKAHfzKqE9-328" value="DB" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-1582.5" y="-80" width="250" height="180" as="geometry">
+            <mxRectangle x="510" y="760" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zC_CfcCXH5zKAHfzKqE9-329" value="&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;Hadoop Distributed FileS&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="zC_CfcCXH5zKAHfzKqE9-328">
+          <mxGeometry y="30" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zC_CfcCXH5zKAHfzKqE9-330" value="DynamoDB" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="zC_CfcCXH5zKAHfzKqE9-328">
+          <mxGeometry y="60" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zC_CfcCXH5zKAHfzKqE9-331" value="&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;MySQL&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="zC_CfcCXH5zKAHfzKqE9-328">
+          <mxGeometry y="90" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zC_CfcCXH5zKAHfzKqE9-332" value="PostgreSQL" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="zC_CfcCXH5zKAHfzKqE9-328">
+          <mxGeometry y="120" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zC_CfcCXH5zKAHfzKqE9-333" value="MongoDB(DocumentDB)" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="zC_CfcCXH5zKAHfzKqE9-328">
+          <mxGeometry y="150" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zC_CfcCXH5zKAHfzKqE9-335" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1710" y="-41" as="sourcePoint" />
+            <mxPoint x="-1639" y="-40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
