@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-05T22:03:03.013Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="sbiLswtl_EcUKTJUz2kR" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-05T22:09:38.119Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="lHOkKoi3pcFi3zvlpGo9" version="21.3.7" type="github">
   <diagram id="2f404044-711c-603c-8f00-f6bb4c023d3c" name="Page-1">
-    <mxGraphModel dx="2859" dy="1720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2844" dy="1699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,7 +8,7 @@
           <mxGeometry x="-100.99999999999977" y="-899" width="121" height="310" as="geometry" />
         </mxCell>
         <mxCell id="2_SsEijeQoVdo6ajgM3R-251" value="EC2 instance contents" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_ec2_instance_contents;strokeColor=#D86613;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#D86613;dashed=0;" parent="1" vertex="1">
-          <mxGeometry x="-486" y="-920" width="525" height="346" as="geometry" />
+          <mxGeometry x="-486" y="-920" width="525" height="370" as="geometry" />
         </mxCell>
         <mxCell id="K4gDaX_XvTQUOaKr9B5M-210" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.volume;fillColor=#d5e8d4;rotation=90;strokeColor=#82b366;" parent="2_SsEijeQoVdo6ajgM3R-251" vertex="1">
           <mxGeometry y="169.58999999999992" width="61" height="48.83" as="geometry" />
@@ -53,7 +53,10 @@
           <mxGeometry x="16" y="45" width="75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TvLhjybQIobsQFbwoq0Y-271" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Website_Power.svg;" vertex="1" parent="2_SsEijeQoVdo6ajgM3R-251">
-          <mxGeometry x="364" y="305" width="36" height="36" as="geometry" />
+          <mxGeometry x="364" y="335" width="31" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="TvLhjybQIobsQFbwoq0Y-274" value="&lt;font color=&quot;#077eda&quot;&gt;WEB APP&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="2_SsEijeQoVdo6ajgM3R-251">
+          <mxGeometry x="416" y="336" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="uH1Fmeflz7HbdABCjhMK-329" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
           <mxGeometry x="-2350" y="-1020" width="1710" height="900" as="geometry" />
@@ -1405,7 +1408,7 @@
         <mxCell id="2_SsEijeQoVdo6ajgM3R-237" value="Mark&lt;br&gt;Down" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" parent="1" vertex="1">
           <mxGeometry x="-62.269999999999754" y="-719.0899999999999" width="43.529999999999994" height="47.92" as="geometry" />
         </mxCell>
-        <mxCell id="2_SsEijeQoVdo6ajgM3R-238" value="WEB&lt;br&gt;APP" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" parent="1" vertex="1">
+        <mxCell id="2_SsEijeQoVdo6ajgM3R-238" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;WEB&lt;br&gt;APP&lt;br&gt;JSON&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" parent="1" vertex="1">
           <mxGeometry x="-62.269999999999754" y="-661.92" width="43.529999999999994" height="47.92" as="geometry" />
         </mxCell>
         <mxCell id="2_SsEijeQoVdo6ajgM3R-249" value="&lt;font color=&quot;#ffffff&quot;&gt;Shared Volume&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
