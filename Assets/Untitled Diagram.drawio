@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-08T12:01:49.713Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="kezKNWiMxbwoX5dXI0dR" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-08T12:53:43.670Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="SpNbi4x_GEFlPAaC2r-J" version="21.3.7" type="github">
   <diagram id="2f404044-711c-603c-8f00-f6bb4c023d3c" name="Page-1">
-    <mxGraphModel dx="3878" dy="1729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3184" dy="1491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1240,8 +1240,14 @@
         <mxCell id="vSYm4vQBfGrunov_rSWH-203" value="&lt;font color=&quot;#2aade5&quot;&gt;Flask API&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="vSYm4vQBfGrunov_rSWH-208" vertex="1">
           <mxGeometry x="20" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="K4gDaX_XvTQUOaKr9B5M-202" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;Development phase&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeColor=#FF3333;strokeWidth=1.5;" parent="uH1Fmeflz7HbdABCjhMK-220" vertex="1">
-          <mxGeometry x="467.3" y="300" width="162.7" height="130" as="geometry" />
+        <mxCell id="K4gDaX_XvTQUOaKr9B5M-202" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;Development phase&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeColor=#FF3333;strokeWidth=1.5;" parent="uH1Fmeflz7HbdABCjhMK-220" vertex="1">
+          <mxGeometry x="467.3" y="300" width="162.7" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="qMYElb-sHtWiumyyX4gT-200" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Grafana.svg;" vertex="1" parent="uH1Fmeflz7HbdABCjhMK-220">
+          <mxGeometry x="570" y="490" width="42.24" height="32.8" as="geometry" />
+        </mxCell>
+        <mxCell id="qMYElb-sHtWiumyyX4gT-201" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/brands-applications/512/Excel_D-128.png" vertex="1" parent="uH1Fmeflz7HbdABCjhMK-220">
+          <mxGeometry x="504.25" y="487.4" width="38" height="38" as="geometry" />
         </mxCell>
         <mxCell id="uH1Fmeflz7HbdABCjhMK-243" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" parent="1" source="uH1Fmeflz7HbdABCjhMK-226" target="uH1Fmeflz7HbdABCjhMK-228" edge="1">
           <mxGeometry relative="1" as="geometry">
